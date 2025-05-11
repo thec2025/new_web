@@ -13,6 +13,9 @@ const theme = createTheme({
     secondary: {
       main: '#FFA500',
     },
+    button: {
+      main : "#313B54"
+    },
   },
   typography: {
     fontFamily: 'Roboto, Arial, sans-serif',
