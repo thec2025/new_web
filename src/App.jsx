@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar';
-import AboutSection from './components/AboutSection';
-import conferenceData from './data/conference.json';
+import AboutConference from './components/AboutConference';
+
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Navbar navItems={navigationItems} />
-      <AboutSection data={conferenceData} />
+      <AboutConference />
     </>
   );
 }
