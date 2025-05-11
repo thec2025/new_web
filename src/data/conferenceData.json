@@ -1,0 +1,23 @@
+{
+  "about": {
+    "title": "ABOUT CONFERENCE",
+    "description": "TIET in collaboration with NITTTR Chandigarh is organizing a conference on Transforming Higher Education for Future: Education 4.0. This conference focuses on the evolving landscape of higher education in the era of digitization and Education 4.0. It explores the integration of emerging technologies such as Artificial Intelligence, automation, and advanced engineering to transform the learning environment, curricula, and pedagogy.Bringing together the educators, policymakers, researchers, and innovators, the conference aims to inspire strategic approaches for embedding technology into academia and industry.The goal is to enhance the quality of education and address the dynamic needs of a globalized world.With a strong emphasis on implementing Education 4.0 standards and the Outcome-Based Education (OBE) framework, now a cornerstone for higher education institutions, this conference invites original research papers on diverse topics which are mentioned in Conference Tracks",
+  
+    "documents": {
+      "objectives": {
+        "title": "Conference Objectives",
+        "path": "images/Objectives.pdf"
+      },
+      "outcomes": {
+        "title": "Expected Outcomes",
+        "path": "images/outcome.pdf"
+      },
+      "callForPapers": {
+        "title": "Call for Papers",
+        "path": "images/THEFE 4.0.pdf"
+      }
+    }
+  },
+  "tiet":{
+  }
+} 
