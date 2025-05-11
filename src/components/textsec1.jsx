@@ -20,9 +20,9 @@ function TextSec1({data}){
                     {data.description}
                 </Typography>
 
-                {data.documents && Object.keys(data.documents).length > 0 && (
+                {data.buttons && Object.keys(data.buttons).length > 0 && (
                     <Stack direction={{xs: 'column',sm:'row'}} spacing={2} justifyContent="center">
-                        {Object.entries(data.documents).map(([key, doc]) => (
+                        {Object.entries(data.buttons).map(([key, doc]) => (
                             <Button
                                 key={key}
                                 component="a"

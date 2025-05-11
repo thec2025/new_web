@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar';
 import TextSec1 from './components/textsec1';
+import TextSec2 from './components/textsec2';
 import conferencedata from "./data/conferenceData.json"
 
 
@@ -20,6 +21,7 @@ function App() {
     <>
       <Navbar navItems={navigationItems} />
       <TextSec1 data={conferencedata.about} />
+      <TextSec2 data = {conferencedata.tiet} />
     </>
   );
 }

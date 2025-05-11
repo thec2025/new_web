@@ -40,8 +40,6 @@ function Navbar({ navItems = [] }) {
               <a href="register.html" className="register-link">Register</a>
             </div>
           </nav>
-    
-
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@
     "title": "ABOUT CONFERENCE",
     "description": "TIET in collaboration with NITTTR Chandigarh is organizing a conference on Transforming Higher Education for Future: Education 4.0. This conference focuses on the evolving landscape of higher education in the era of digitization and Education 4.0. It explores the integration of emerging technologies such as Artificial Intelligence, automation, and advanced engineering to transform the learning environment, curricula, and pedagogy.Bringing together the educators, policymakers, researchers, and innovators, the conference aims to inspire strategic approaches for embedding technology into academia and industry.The goal is to enhance the quality of education and address the dynamic needs of a globalized world.With a strong emphasis on implementing Education 4.0 standards and the Outcome-Based Education (OBE) framework, now a cornerstone for higher education institutions, this conference invites original research papers on diverse topics which are mentioned in Conference Tracks",
   
-    "documents": {
+    "buttons": {
       "objectives": {
         "title": "Conference Objectives",
         "path": "images/Objectives.pdf"
@@ -19,5 +19,15 @@
     }
   },
   "tiet":{
+    "title": "ABOUT TIET",
+    "description" : "Thapar Institute of Engineering and Technology (TIET) was established in 1956 and is today recognized amongst the leading privately managed institutions of the country. As a result of the inspiring vision and perseverance of the founders, TIET has steadily and impressively grown in size and activities during the last seven decades of its existence. Keeping pace with emerging global standards, globalization and advances technology, Thapar Institute offers education ecosystems with quality learning ranked and recognized worldwide. Our rankings are by the foremost global educational ranking organizations. TIET has consistently been ranked amongst the top 30 engineering institutions in the annual National (NIRF) Rankings. The Institution is accredited as an A++ Institution (only the top 4% of Universities fall in this category) by the National Assessment and Accreditation Council (NAAC) in addition, eligible programs are NBA and ABET-accredited. At present, TIET is among the few top Indian private universities that feature in the top 500 of Times Higher Education and QS world subject rankings. TIET’s teaching and learning practices focus on student-centred learning and the outcomes-based and project-led approaches that bring out the best in each student. The diverse programs in Engineering, Sciences, Management and Liberal Arts aim to develop quality of mind, ethical standards, social awareness and global perspectives.",
+
+    "buttons": {
+      "objectives": {
+        "title": "Conference Objectives",
+        "path": "images/Objectives.pdf"
+      }
+    }
+
   }
 } 
