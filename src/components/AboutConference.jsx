@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Box, Typography, Button, Stack } from '@mui/material';
 
 const AboutConference = () => {
+  
   return (
     <Box component="section" id="about" sx={{ py: { xs: 6, md: 10 }, background: '#f9f9f9' }}>
       <Container>
