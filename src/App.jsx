@@ -2,9 +2,9 @@ import './App.css';
 import Navbar from './components/navbar';
 import TextSec1 from './components/textsec1';
 import TextSec2 from './components/textsec2';
-import conferencedata from "./data/conferenceData.json"
-
-
+import conferencedata from "./data/conferenceData.json";
+import DatesTable from './components/dates_table';
+import Committees from './components/committes';
 
 function App() {
   const navigationItems = [
@@ -17,11 +17,15 @@ function App() {
     { href: "", label: "Schedule" }
   ];
 
+  console.log("Conference data:", conferencedata);  // Log the data to verify
+
   return (
     <>
       <Navbar navItems={navigationItems} />
       <TextSec1 data={conferencedata.about} />
-      <TextSec2 data = {conferencedata.tiet} />
+      <TextSec2 data={conferencedata.tiet} />
+      <DatesTable data={conferencedata.importantDates} />
+      <Committees data={conferencedata.committees} />
     </>
   );
 }
