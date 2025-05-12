@@ -18,9 +18,25 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: 'Roboto, Arial, sans-serif',
+    fontFamily: '"Barlow", "Roboto", "Arial", sans-serif',
+    h1: {
+      fontFamily: '"Playfair Display", serif',
+    },
+    h2: {
+      fontFamily: '"Playfair Display", serif',
+    },
+    h3: {
+      fontFamily: '"Playfair Display", serif',
+    },
     h4: {
+      fontFamily: '"Playfair Display", serif',
       fontWeight: 'bold',
+    },
+    h5: {
+      fontFamily: '"Playfair Display", serif',
+    },
+    h6: {
+      fontFamily: '"Playfair Display", serif',
     },
     body1: {
       fontSize: '1rem',
