@@ -2,7 +2,6 @@
   "about": {
     "title": "ABOUT CONFERENCE",
     "description": "TIET in collaboration with NITTTR Chandigarh is organizing a conference on Transforming Higher Education for Future: Education 4.0. This conference focuses on the evolving landscape of higher education in the era of digitization and Education 4.0. It explores the integration of emerging technologies such as Artificial Intelligence, automation, and advanced engineering to transform the learning environment, curricula, and pedagogy.Bringing together the educators, policymakers, researchers, and innovators, the conference aims to inspire strategic approaches for embedding technology into academia and industry.The goal is to enhance the quality of education and address the dynamic needs of a globalized world.With a strong emphasis on implementing Education 4.0 standards and the Outcome-Based Education (OBE) framework, now a cornerstone for higher education institutions, this conference invites original research papers on diverse topics which are mentioned in Conference Tracks",
-  
     "buttons": {
       "objectives": {
         "title": "Conference Objectives",
@@ -18,8 +17,91 @@
       }
     }
   },
-  "tiet":{
+  "tiet": {
     "title": "ABOUT TIET",
-    "description" : "Thapar Institute of Engineering and Technology (TIET) was established in 1956 and is today recognized amongst the leading privately managed institutions of the country. As a result of the inspiring vision and perseverance of the founders, TIET has steadily and impressively grown in size and activities during the last seven decades of its existence. Keeping pace with emerging global standards, globalization and advances technology, Thapar Institute offers education ecosystems with quality learning ranked and recognized worldwide. Our rankings are by the foremost global educational ranking organizations. TIET has consistently been ranked amongst the top 30 engineering institutions in the annual National (NIRF) Rankings. The Institution is accredited as an A++ Institution (only the top 4% of Universities fall in this category) by the National Assessment and Accreditation Council (NAAC) in addition, eligible programs are NBA and ABET-accredited. At present, TIET is among the few top Indian private universities that feature in the top 500 of Times Higher Education and QS world subject rankings. TIET’s teaching and learning practices focus on student-centred learning and the outcomes-based and project-led approaches that bring out the best in each student. The diverse programs in Engineering, Sciences, Management and Liberal Arts aim to develop quality of mind, ethical standards, social awareness and global perspectives."
-  }
-} 
+
+    "description": "Thapar Institute of Engineering and Technology (TIET) was established in 1956 and is today recognized amongst the leading privately managed institutions of the country. As a result of the inspiring vision and perseverance of the founders, TIET has steadily and impressively grown in size and activities during the last seven decades of its existence. Keeping pace with emerging global standards, globalization and advances technology, Thapar Institute offers education ecosystems with quality learning ranked and recognized worldwide. Our rankings are by the foremost global educational ranking organizations. TIET has consistently been ranked amongst the top 30 engineering institutions in the annual National (NIRF) Rankings. The Institution is accredited as an A++ Institution (only the top 4% of Universities fall in this category) by the National Assessment and Accreditation Council (NAAC) in addition, eligible programs are NBA and ABET-accredited. At present, TIET is among the few top Indian private universities that feature in the top 500 of Times Higher Education and QS world subject rankings. TIET’s teaching and learning practices focus on student-centred learning and the outcomes-based and project-led approaches that bring out the best in each student. The diverse programs in Engineering, Sciences, Management and Liberal Arts aim to develop quality of mind, ethical standards, social awareness and global perspectives.",
+    "buttons": {
+      "objectives": {
+        "title": "Conference Objectives",
+        "path": "images/Objectives.pdf"
+      }
+    }
+  },
+  "importantDates": {
+    "title": "IMPORTANT DATES",
+    "events": [
+      {"event": "Abstract Submission", "date": "15 June 2025" },
+      {"event": "Acceptance of Abstract", "date": "30 June 2025" },
+      {"event": "Fee Submission", "date": "15 July 2025" },
+      {"event": "Full Paper Submission", "date": "15 August 2025" },
+      {"event": "Full Paper Acceptance", "date": "30 August 2025" }
+    ]
+  },
+  "committees": [
+    {
+      "title": "Technical Program Committee",
+
+      "members": [
+        "Dr. Gagandeep Kaur, Associate Head, EIED, TIET, Patiala, India",
+        "Dr. Amanpreet Kaur, Associate Professor, ECED, TIET, Patiala, India",
+        "Dr. Gurvinder Kaur, Associate Dean of Outreach, TIET, Patiala, India",
+        "Dr. Dwarika Nath Ratha, Professor, DCE, TIET, Patiala, India",
+        "Dr. Alka Pandita, Manager, TIET, Patiala, India",
+        "Dr. Sharad Saxena, Associate Professor, DCSE, TIET, Patiala, India",
+        "Dr. Neloy Kumar Chakroborty, Assistant Professor, TSLAS, TIET, Patiala, India",
+        "Dr. Sheikh Adil Edrisi, Assistant Professor, TSLAS, TIET, Patiala, India",
+        "Dr. Amjad Ali, Professor, DCBC, TIET, Patiala, India",
+        "Dr. Ravinder Kumar Duvedi, Associate Professor, DME, TIET, Patiala, India",
+        "Dr. Himanshu Jindal, Assistant Professor, Amity University, India",
+        "Dr. Monika Bharti, Assistant Professor, Amity University, India",
+        "Dr. Deepak Mehta, Associate Professor, Jain University, India",
+        "Dr. Aakashdeep Kaur, Assistant Professor, PEC, India",
+        "Dr. Komal Singh Gill, Assistant Professor, LPU, India",
+        "Dr. Krishan Kumar Saluja, Professor, DIT, University Institute of Engineering & Technology, Panjab University, India",
+        "Dr. Monika Sachdeva, Professor, Computer Science, I.K. Gujral Punjab Technical University – Mohali Campus I, India",
+        "Dr. Neelam Chadda, GM, NTPC, Nagpur, India",
+        "Dr. Paramjit Singh, Professor (Computer), Dean Student Affairs, MRS PTU, India",
+        "Mr. Harcharan Jit Singh, Senior Systems Analyst IT, TIET, Patiala, India",
+        "Mr. Aeiman Preet Singh, Sr. Associate, System Administration, TIET, Patiala, India"
+      ]
+    },
+    {
+      "title": "Advisory Committee",
+
+      "members": [
+"Dr. Dhananjay Singh, Director, GP Pant Institute of Engineering and Technology, Pauri Garhwal, India",
+        "Dr. Avinash Chandra, Associate Professor, TIET, Patiala, India",
+        "Dr. A K Gautam, Assistant Professor, NIT Hamirpur, India",
+        "Dr. R K Arya, Professor, NIT Jalandhar, India",
+        "Dr. Bhanu Pratap Singh, CSIR-NPL, New Delhi, India",
+        "Dr. Pradeep Kumar, Assistant Professor, IET, Lucknow, India",
+        "Dr. Sushil Kumar Kansal, Professor, Department of Chemical Engineering, Dr. S. S. Bhatnagar University Institute of Chemical Engineering & Technology, Punjab, India",
+        "Dr. Sachin Kumar, Scientist, Sardar Swaran Singh National Institute of Bio-Energy, Kapurthala, India",
+        "Dr. H. J. Pant, Outstanding Scientist and Head, Isotope and Radiation Application Division, Bhabha Atomic Research Centre, Mumbai, India",
+        "Dr. Singara Singh Kasana, Professor, Central University of Haryana, Mahendergarh, India",
+        "Dr. Sunil Dhole, CEO, Chemdist Group of Companies, India",
+        "Dr. Rajesh Kumar Upadhyay, Professor, Department of Chemical Engineering, Indian Institute of Technology (BHU) Varanasi, India",
+        "Dr. Sandip Patil, Director, E-Spin Nanotech Pvt. Ltd., Kanpur, India",
+        "Dr. Ram Prakash Bharti, Professor, IIT Roorkee, India",
+        "Dr. Amit Kumar Dhiman, Professor, Department of Chemical Engineering, Indian Institute of Technology Roorkee, India",
+        "Dr. Narasimha Mangadoddy, Professor, Department of Chemical Engineering, Indian Institute of Technology Hyderabad, India",
+        "Dr. Y P Verma, Registrar, Panjab University, Chandigarh, India",
+        "Dr. Kartikeyan Machavaram, Director IIITDM Kancheepuram, Chennai, India",
+        "Dr. Mike Wride, Associate Professor, Limerick University, Ireland"
+      ]
+    },
+    {
+      "title": "Development & Design Team",
+
+      "members": [
+      "Yashmit Vaish, DCSE",
+      "Abhinav Saini, ECED",
+      "Aanya Agarwal, DCSE",
+      "Vignesh Jain, DCSE",
+    "Aman Aasees Kaur, DCSE"
+          ]
+        }
+      ]
+    }
+ 

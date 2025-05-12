@@ -1,5 +1,6 @@
-import React from "react";
+
 import { Container, Box, Typography, Button, Stack } from "@mui/material";
+
 
 function TextSec1({data}){
     if (!data){
