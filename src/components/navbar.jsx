@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import { Box, Button, IconButton, Drawer, List, ListItem, ListItemText, Typography, Link } from '@mui/material';
+import { Box, Button, IconButton, Drawer, List, ListItem, ListItemText, Link } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import {useNavigate} from 'react-router-dom';
 
-const Slide1692 = ({ data }) => {
+const Navbar = ({ data }) => {
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const navigate = useNavigate();
 
   if (!data) return null;
 
@@ -40,6 +42,7 @@ const Slide1692 = ({ data }) => {
       >
         {data.map((link) => (
           <Link
+            component="a"
             key={link.label}
             href={link.href}
             underline="none"
@@ -98,7 +101,7 @@ const Slide1692 = ({ data }) => {
               <Button
                 fullWidth
                 variant="contained"
-                href="#register"
+                onClick= {() => navigate('/register')}
                 sx={{
                   backgroundColor: '#ff0000',
                   borderRadius: '33px',
@@ -117,4 +120,4 @@ const Slide1692 = ({ data }) => {
   );
 };
 
-export default Slide1692;
+export default Navbar;

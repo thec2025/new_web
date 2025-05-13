@@ -1,5 +1,5 @@
 import './App.css';
-import Slide1692 from '../components/navbar';
+import Navbar from '../components/navbar';
 import TextSec1 from '../components/textsec1';
 import TextSec2 from '../components/textsec2';
 import conferencedata from "../data/conferenceData.json";
@@ -10,16 +10,16 @@ import { thaparLearnFellows, uqFellows } from '../data/committeeData';
 import HeroSection from '../components/Landing';
 import { Box, Container, Typography } from '@mui/material';
 import ConferenceTracks from '../components/ConferenceTracks';
-import Slide1693 from '../components/bottomblack';
+import Bottombar from '../components/bottomblack';
 import ContactUs from '../components/contactUs';
 
 function Home() {
 
   return (
     <>
-     <Slide1692 data={conferencedata.navLinks} />
+      <Navbar data={conferencedata.navLinks} />
       <HeroSection />
-     <Slide1693/>
+      <Bottombar/>
       <TextSec1 data={conferencedata.about} />
       <TextSec2 data={conferencedata.tiet} />
       <DatesTable data={conferencedata.importantDates} />

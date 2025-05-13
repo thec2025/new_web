@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 
-const Slide1693 = () => {
+const Bottombar = () => {
   return (
     <Box
       sx={{
@@ -60,7 +60,7 @@ const Slide1693 = () => {
       {/* Right: Register Button */}
       <Button
         variant="contained"
-        href="#register"
+        href="/register"
         sx={{
           backgroundColor: '#fff',
           color: '#000',
@@ -81,4 +81,4 @@ const Slide1693 = () => {
   );
 };
 
-export default Slide1693;
+export default Bottombar;

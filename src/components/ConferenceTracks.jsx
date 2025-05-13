@@ -52,7 +52,8 @@ const ConferenceTracks = ({ tracks }) => {
       <Typography variant="h4" component="h2" align="left" gutterBottom>
         CONFERENCE TRACKS
       </Typography>
-      <Typography variant="body1" paragraph align="center">
+      <br />
+      <Typography variant="body1" paragraph align="left">
         This conference invites original research papers on diverse topics as mentioned below-
       </Typography>
       
@@ -90,6 +91,7 @@ const ConferenceTracks = ({ tracks }) => {
       <Typography variant="body1" align="left" sx={{ mt: 3 }}>
         Selected papers will be published in Conference Proceedings / Indexed Journals.
       </Typography>
+      <br />
     </Box>
   </Container>
   );

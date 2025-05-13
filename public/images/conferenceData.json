@@ -251,15 +251,15 @@
     "buttons": {
       "Guidlines": {
         "title": "Submission Guidlines (CMT)",
-        "path": "images/CMT Submission Guidelines.pdf"
+        "path": "images/Objectives.pdf"
       },
-      "Template": {
+      "outcomes": {
         "title": "Abstract Template",
-        "path": "images/Abstract_Submission Template THEC 2025.docx"
+        "path": "images/outcome.pdf"
       },
-      "Submission": {
+      "callForPapers": {
         "title": "Abstract / Paper Submission",
-        "path": "https://cmt3.research.microsoft.com/THEC2025"
+        "path": "images/THEFE 4.0.pdf"
       }
     }
   }
