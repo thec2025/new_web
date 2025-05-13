@@ -19,8 +19,7 @@
   },
   "tiet": {
     "title": "ABOUT TIET",
-
-    "description": "Thapar Institute of Engineering and Technology (TIET) was established in 1956 and is today recognized amongst the leading privately managed institutions of the country. As a result of the inspiring vision and perseverance of the founders, TIET has steadily and impressively grown in size and activities during the last seven decades of its existence. Keeping pace with emerging global standards, globalization and advances technology, Thapar Institute offers education ecosystems with quality learning ranked and recognized worldwide. Our rankings are by the foremost global educational ranking organizations. TIET has consistently been ranked amongst the top 30 engineering institutions in the annual National (NIRF) Rankings. The Institution is accredited as an A++ Institution (only the top 4% of Universities fall in this category) by the National Assessment and Accreditation Council (NAAC) in addition, eligible programs are NBA and ABET-accredited. At present, TIET is among the few top Indian private universities that feature in the top 500 of Times Higher Education and QS world subject rankings. TIET’s teaching and learning practices focus on student-centred learning and the outcomes-based and project-led approaches that bring out the best in each student. The diverse programs in Engineering, Sciences, Management and Liberal Arts aim to develop quality of mind, ethical standards, social awareness and global perspectives."
+    "description": "Thapar Institute of Engineering and Technology (TIET) was established in 1956 and is today recognized amongst the leading privately managed institutions of the country. As a result of the inspiring vision and perseverance of the founders, TIET has steadily and impressively grown in size and activities during the last seven decades of its existence. Keeping pace with emerging global standards, globalization and advances technology, Thapar Institute offers education ecosystems with quality learning ranked and recognized worldwide. Our rankings are by the foremost global educational ranking organizations. TIET has consistently been ranked amongst the top 30 engineering institutions in the annual National (NIRF) Rankings. The Institution is accredited as an A++ Institution (only the top 4% of Universities fall in this category) by the National Assessment and Accreditation Council (NAAC) in addition, eligible programs are NBA and ABET-accredited. At present, TIET is among the few top Indian private universities that feature in the top 500 of Times Higher Education and QS world subject rankings. TIET's teaching and learning practices focus on student-centred learning and the outcomes-based and project-led approaches that bring out the best in each student. The diverse programs in Engineering, Sciences, Management and Liberal Arts aim to develop quality of mind, ethical standards, social awareness and global perspectives."
   },
   "importantDates": {
     "title": "IMPORTANT DATES",
@@ -32,10 +31,125 @@
       {"event": "Full Paper Acceptance", "date": "30 August 2025" }
     ]
   },
+  "tracks": [
+    [
+      {
+        "title": "Experiential Learning",
+        "items": [
+          "Impact of Experiential Learning on Student's Education",
+          "Implementing Best Practices in Experiential Learning",
+          "Successful Experiential Learning Case Studies",
+          "Creating Experiential Learning Opportunities",
+          "Evaluating Experiential Learning Effectiveness",
+          "Innovations in Education Enhancing Scientific Literacy"
+        ]
+      },
+      {
+        "title": "Active Learning",
+        "items": [
+          "Team work / Group work",
+          "Peer to Peer Learning",
+          "Student Engagement in Large Classrooms",
+          "Outcome-Based Education",
+          "Design Thinking-Based Approach in Teaching and Learning",
+          "Tutoring and Mentoring",
+          "Holistic Student Development"
+        ]
+      },
+      {
+        "title": "Project-Based Learning",
+        "items": [
+          "Real-World Project Experiences",
+          "Industry-Academia Collaboration for PBL",
+          "Integrating Projects into Curriculum",
+          "Evaluation Rubrics for PBL",
+          "PBL Conversions Towards RIT (Research-Integrated Teaching)"
+        ]
+      },
+      {
+        "title": "Faculty Development and Support",
+        "items": [
+          "Continuous Professional Development",
+          "Curricular and Pedagogical Research",
+          "Best Practices for Faculty-Student Interaction and Mentorship",
+          "Co-Teaching and Peer Teaching",
+          "Reflective Teaching Practices"
+        ]
+      },
+      {
+        "title": "Student Engagement, Employability and Career Readiness",
+        "items": [
+          "Student Motivation and Engagement",
+          "Mentoring and Counselling",
+          "Career Readiness and Employability Skills",
+          "Employability, Placement and Internship Support",
+          "Student Involvement in Research Projects and Start-Up Initiatives",
+          "Reflection for Personal and Professional Growth",
+          "Life Long Learning",
+          "Role of Extracurricular Activities"
+        ]
+      }
+    ],
+    [
+      {
+        "title": "Artificial Intelligence (AI) in Education",
+        "items": [
+          "Role of Artificial intelligence in Shaping Cognitive Skill Learning",
+          "Curriculum Planning for Future",
+          "Transformative Effect of AI in Education",
+          "Benefits and Challenges Related to AI in Education",
+          "Blockchain to Secure Credentials",
+          "Cognitive Skills and Learning",
+          "Quality Standards"
+        ]
+      },
+      {
+        "title": "Advances in Educational Technology",
+        "items": [
+          "E-Learning Initiatives",
+          "Adaptation to New Technologies",
+          "Social and Digital Media",
+          "E-Management and Online Classroom",
+          "Simulation, Animation and Educational Multimedia",
+          "Interactive Whiteboard and Assistive Technologies",
+          "Blended Learning with Advanced Classroom Technologies",
+          "Virtual Learning for Online / Virtual Laboratories",
+          "Online Assessment",
+          "Plagiarism Detection Technologies",
+          "Managed Learning Environments (MLEs)",
+          "Learning Management Systems (LMS)"
+        ]
+      },
+      {
+        "title": "Academia-Industry Connect",
+        "items": [
+          "Internship Programmes",
+          "University Start-Ups",
+          "Workplace Learning",
+          "Employability",
+          "Entrepreneurship Education",
+          "University-Industry-Government Partnership",
+          "Patents and Technology Transfer"
+        ]
+      },
+      {
+        "title": "Global Implications of Education",
+        "items": [
+          "Globalization of Education",
+          "Global Challenges of Education",
+          "International Accreditations",
+          "Government Policy Issues",
+          "Ethical Issues in Education",
+          "Education for Sustainability",
+          "Leadership and Educational Management",
+          "International Education and Exchange Programs"
+        ]
+      }
+    ]
+  ],
   "committees": [
     {
       "title": "Technical Program Committee",
-
       "members": [
         "Dr. Gagandeep Kaur, Associate Head, EIED, TIET, Patiala, India",
         "Dr. Amanpreet Kaur, Associate Professor, ECED, TIET, Patiala, India",
@@ -62,50 +176,46 @@
     },
     {
       "title": "Advisory Committee",
-
       "members": [
-       "Prof. Nir Ohad, Tel Aviv University, Chair professor, Centre for Food Security, Israel",
-"Prof. Tim Miller, University of Queensland, Chair professor, Centre for Data Centre, Australia",
-"Prof. Noam Eliaz, Tel Aviv University, Chair professor, Centre for Advanced Manufacturing, Israel",
-"Prof. Rooplal Mahajan, Virginia Tech, Chair professor, Centre for excellence in Emerging Materials, Virginia",
-"Prof. Sanjeev Bedi, Waterloo University, Chair Professor, Experiential Learning Centre, Canada",
-"Prof. Aard Groen, Groningen University, Chair Professor, Venture Lab, Netherlands",
-"Prof. Roger West, Visiting Prof. Civil Engineering, TIET, India",
-"Prof. Mike Wride, Associate Professor, Limerick University, Ireland",
-"Prof. Ram Fishman, Professor, Tel Aviv University, Israel",
-"Prof. Guru Ghosh, Virginia Tech, Virginia",
-"Prof. Hadas Mamane, Tel Aviv University, Israel",
-"Prof. Gurdip Singh, George Mason University, Virginia",
-"Prof. Hans van Ees, Honorary Dean Thaoar School of Liberal Arts - Professor at University of Groningen",
-"Prof. Y P Verma, Registrar, Panjab University, Chandigarh",
-"Prof. Dhananjay Singh, Director, GP Pant Institute of Engineering and Technology, Pauri Garhwal, India",
-"Dr. Avinash Chandra, Associate Professor, TIET, Patiala, India",
-"Dr. A K Gautam, Assistant Professor, NIT Hamirpur, India",
-"Dr. R K Arya, Professor, NIT Jalandhar, India",
-"Dr. Bhanu Pratap Singh, CSIR-NPL, New Delhi, India",
-"Dr. Pradeep Kumar, Assistant Professor, IET, Lucknow, India",
-"Dr. Sachin Kumar, Scientist, Sardar Swaran Singh National Institute of Bio-Energy, Kapurthala, India",
-"Dr. H. J. Pant, Outstanding Scientist and Head, Isotope and Radiation Application Division, Bhabha Atomic Research Centre, Mumbai, India",
-"Dr. Singara Singh Kasana, Professor, Central University of Haryana, Mahendergarh, India",
-"Dr. Sunil Dhole, CEO, Chemdist Group of Companies, India",
-"Prof. Sandip Patil, Director, E-Spin Nanotech Pvt. Ltd., Kanpur, India",
-"Prof. Ram Prakash Bharti, IIT Roorkee, India",
-"Prof. Amit Kumar Dhiman, Department of Chemical Engineering, Indian Institute of Technology Roorkee, India",
-"Dr. Kartikeyan Machavaram, Director IIITDM Kancheepuram, Chennai, India"
-
+        "Prof. Nir Ohad, Tel Aviv University, Chair professor, Centre for Food Security, Israel",
+        "Prof. Tim Miller, University of Queensland, Chair professor, Centre for Data Centre, Australia",
+        "Prof. Noam Eliaz, Tel Aviv University, Chair professor, Centre for Advanced Manufacturing, Israel",
+        "Prof. Rooplal Mahajan, Virginia Tech, Chair professor, Centre for excellence in Emerging Materials, Virginia",
+        "Prof. Sanjeev Bedi, Waterloo University, Chair Professor, Experiential Learning Centre, Canada",
+        "Prof. Aard Groen, Groningen University, Chair Professor, Venture Lab, Netherlands",
+        "Prof. Roger West, Visiting Prof. Civil Engineering, TIET, India",
+        "Prof. Mike Wride, Associate Professor, Limerick University, Ireland",
+        "Prof. Ram Fishman, Professor, Tel Aviv University, Israel",
+        "Prof. Guru Ghosh, Virginia Tech, Virginia",
+        "Prof. Hadas Mamane, Tel Aviv University, Israel",
+        "Prof. Gurdip Singh, George Mason University, Virginia",
+        "Prof. Hans van Ees, Honorary Dean Thaoar School of Liberal Arts - Professor at University of Groningen",
+        "Prof. Y P Verma, Registrar, Panjab University, Chandigarh",
+        "Prof. Dhananjay Singh, Director, GP Pant Institute of Engineering and Technology, Pauri Garhwal, India",
+        "Dr. Avinash Chandra, Associate Professor, TIET, Patiala, India",
+        "Dr. A K Gautam, Assistant Professor, NIT Hamirpur, India",
+        "Dr. R K Arya, Professor, NIT Jalandhar, India",
+        "Dr. Bhanu Pratap Singh, CSIR-NPL, New Delhi, India",
+        "Dr. Pradeep Kumar, Assistant Professor, IET, Lucknow, India",
+        "Dr. Sachin Kumar, Scientist, Sardar Swaran Singh National Institute of Bio-Energy, Kapurthala, India",
+        "Dr. H. J. Pant, Outstanding Scientist and Head, Isotope and Radiation Application Division, Bhabha Atomic Research Centre, Mumbai, India",
+        "Dr. Singara Singh Kasana, Professor, Central University of Haryana, Mahendergarh, India",
+        "Dr. Sunil Dhole, CEO, Chemdist Group of Companies, India",
+        "Prof. Sandip Patil, Director, E-Spin Nanotech Pvt. Ltd., Kanpur, India",
+        "Prof. Ram Prakash Bharti, IIT Roorkee, India",
+        "Prof. Amit Kumar Dhiman, Department of Chemical Engineering, Indian Institute of Technology Roorkee, India",
+        "Dr. Kartikeyan Machavaram, Director IIITDM Kancheepuram, Chennai, India"
       ]
     },
     {
       "title": "Development & Design Team",
-
       "members": [
-      "Yashmit Vaish, DCSE",
-      "Abhinav Saini, ECED",
-      "Aanya Agarwal, DCSE",
-      "Vignesh Jain, DCSE",
-    "Aman Aasees Kaur, DCSE"
-          ]
-        }
+        "Yashmit Vaish, DCSE",
+        "Abhinav Saini, ECED",
+        "Aanya Agarwal, DCSE",
+        "Vignesh Jain, DCSE",
+        "Aman Aasees Kaur, DCSE"
       ]
     }
- 
+  ]
+} 
