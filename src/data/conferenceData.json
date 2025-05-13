@@ -237,5 +237,12 @@
     }
 
   ]
-    }
- 
+   ,
+  "footer": {
+    "title": "Contact Us",
+    "address": "Thapar Institute of Engineering and Technology, Bhadson Rd, Adarsh Nagar, Prem Nagar, Patiala, Punjab 147004",
+    "email": "thec2025@thapar.edu",
+    "phone1": "+91 91156 08843",
+    "phone2": "+91 98156 01313"
+  }
+}

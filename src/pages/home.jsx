@@ -11,17 +11,9 @@ import HeroSection from '../components/Landing';
 import { Box, Container, Typography } from '@mui/material';
 import ConferenceTracks from '../components/ConferenceTracks';
 import Slide1693 from '../components/bottomblack';
+import ContactUs from '../components/contactUs';
 
 function Home() {
-  const navigationItems = [
-    { href: "#home", label: "Home" },
-    { href: "#ABOUT CONFERENCE", label: "About" },
-    { href: "#Organizers", label: "Our Team" },
-    { href: "#Conference_Tracks", label: "Conference Tracks" },
-    { href: "#contact", label: "Contact Us" },
-    { href: "abstract.html", label: "Abstract / Submissions" },
-    { href: "", label: "Schedule" }
-  ];
 
   return (
     <>
@@ -48,7 +40,9 @@ function Home() {
         </Container>
       </Box>
       <Committees data={conferencedata.committees} />
+          <ContactUs data={conferencedata.footer} />
     </>
+
   );
 }
 
