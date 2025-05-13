@@ -177,45 +177,72 @@
     {
       "title": "Advisory Committee",
       "members": [
-        "Prof. Nir Ohad, Tel Aviv University, Chair professor, Centre for Food Security, Israel",
-        "Prof. Tim Miller, University of Queensland, Chair professor, Centre for Data Centre, Australia",
-        "Prof. Noam Eliaz, Tel Aviv University, Chair professor, Centre for Advanced Manufacturing, Israel",
-        "Prof. Rooplal Mahajan, Virginia Tech, Chair professor, Centre for excellence in Emerging Materials, Virginia",
-        "Prof. Sanjeev Bedi, Waterloo University, Chair Professor, Experiential Learning Centre, Canada",
-        "Prof. Aard Groen, Groningen University, Chair Professor, Venture Lab, Netherlands",
-        "Prof. Roger West, Visiting Prof. Civil Engineering, TIET, India",
-        "Prof. Mike Wride, Associate Professor, Limerick University, Ireland",
-        "Prof. Ram Fishman, Professor, Tel Aviv University, Israel",
-        "Prof. Guru Ghosh, Virginia Tech, Virginia",
-        "Prof. Hadas Mamane, Tel Aviv University, Israel",
-        "Prof. Gurdip Singh, George Mason University, Virginia",
-        "Prof. Hans van Ees, Honorary Dean Thaoar School of Liberal Arts - Professor at University of Groningen",
-        "Prof. Y P Verma, Registrar, Panjab University, Chandigarh",
-        "Prof. Dhananjay Singh, Director, GP Pant Institute of Engineering and Technology, Pauri Garhwal, India",
-        "Dr. Avinash Chandra, Associate Professor, TIET, Patiala, India",
-        "Dr. A K Gautam, Assistant Professor, NIT Hamirpur, India",
-        "Dr. R K Arya, Professor, NIT Jalandhar, India",
-        "Dr. Bhanu Pratap Singh, CSIR-NPL, New Delhi, India",
-        "Dr. Pradeep Kumar, Assistant Professor, IET, Lucknow, India",
-        "Dr. Sachin Kumar, Scientist, Sardar Swaran Singh National Institute of Bio-Energy, Kapurthala, India",
-        "Dr. H. J. Pant, Outstanding Scientist and Head, Isotope and Radiation Application Division, Bhabha Atomic Research Centre, Mumbai, India",
-        "Dr. Singara Singh Kasana, Professor, Central University of Haryana, Mahendergarh, India",
-        "Dr. Sunil Dhole, CEO, Chemdist Group of Companies, India",
-        "Prof. Sandip Patil, Director, E-Spin Nanotech Pvt. Ltd., Kanpur, India",
-        "Prof. Ram Prakash Bharti, IIT Roorkee, India",
-        "Prof. Amit Kumar Dhiman, Department of Chemical Engineering, Indian Institute of Technology Roorkee, India",
-        "Dr. Kartikeyan Machavaram, Director IIITDM Kancheepuram, Chennai, India"
+"Prof. Nir Ohad, Tel Aviv University, Chair professor, Centre for Food Security, Israel.",
+"Prof Tim Miller, University of Queensland, Chair professor, Centre for Data Centre, Australia.",
+"Prof. Noam Eliaz, Tel Aviv University, Chair professor, Centre for Advanced Manufacturing, Israel.",
+"Prof. Rooplal Mahajan, Virginia Tech, Chair professor, Centre for excellence in Emerging Materials, Virginia.",
+"Prof. Sanjeev Bedi, Waterloo University, Chair Professor, Experiential Learning Centre, Canada.",
+"Prof. Aard Groen, Groningen University, Chair Professor, Venture Lab, Netherlands.",
+"Prof Roger West, Visiting Prof. Civil Engineering, TIET, India.",
+"Prof. Mike Wride, Associate Professor, Limerick University, Ireland.",
+"Prof. Ram Fishman, Professor, Tel Aviv University, Israel.",
+"Prof. Guru Ghosh, Virginia Tech, Virginia.",
+"Prof. Hadas Mamane, Tel Aviv University, Israel.",
+"Prof. Gurdip Singh, George Mason University, Virginia.",
+"Prof Hans van Ees, Honorary Dean Thaoar school of Liberal Arts - Professor at University of Groningen."
+
       ]
     },
     {
       "title": "Development & Design Team",
       "members": [
-        "Yashmit Vaish, DCSE",
-        "Abhinav Saini, ECED",
-        "Aanya Agarwal, DCSE",
-        "Vignesh Jain, DCSE",
-        "Aman Aasees Kaur, DCSE"
-      ]
+      "Yashmit Vaish, DCSE",
+      "Abhinav Saini, ECED",
+      "Aanya Agarwal, DCSE",
+      "Vignesh Jain, DCSE",
+    "Aman Aasees Kaur, DCSE"
+          ]
+        }
+      ],
+        "navLinks": [
+
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "About Conference",
+      "path": "#ABOUT CONFERENCE"
+    },
+    {
+      "label": "Our Team",
+      "path": "#Organizers"
+    },
+    {
+      "label": "Conference Tracks",
+      "path": "#Conference_Tracks"
+    },
+    {
+      "label": "Contact Us",
+      "path": "#contact"
+    },
+        {
+      "label": "Abstract/Submissions",
+      "path": "#Abstract"
+    },
+
+    {
+      "label":"Schedule",
+      "path": "#Schedule"
     }
+
   ]
-} 
+   ,
+  "footer": {
+    "title": "Contact Us",
+    "address": "Thapar Institute of Engineering and Technology, Bhadson Rd, Adarsh Nagar, Prem Nagar, Patiala, Punjab 147004",
+    "email": "thec2025@thapar.edu",
+    "phone1": "+91 91156 08843",
+    "phone2": "+91 98156 01313"
+  }
+}

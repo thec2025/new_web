@@ -1,49 +1,120 @@
-import React, { useState } from "react";
-import logo from "../data/logo.png"
+import React, { useState } from 'react';
+import { Box, Button, IconButton, Drawer, List, ListItem, ListItemText, Typography, Link } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 
-function Navbar({ navItems = [] }) {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+const Slide1692 = ({ data }) => {
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  if (!data) return null;
+
   return (
-    <div className="main-nav-section">
-      <div className="navbar" role="banner" id="top">
-        <div className="container main-nav">
-          <div className="tieL">
-            <a href="https://www.thapar.edu/" className="brand">
-              <img src= {logo} alt="TIET Logo" className="logoimage" />
-            </a>
-          </div>
+    <Box
+      sx={{
+        width: '100%',
+        background: 'linear-gradient(90deg, #ff5576, #ff9a66)',
+        color: '#fff',
+        px: 3,
+        py: 2,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        flexWrap: 'nowrap', // Prevent wrap
+      }}
+    >
+      {/* Logo */}
+      <Box
+        component="img"
+        src="/Asset 3 1.svg"
+        alt="Logo"
+        sx={{ height: 40, width: 'auto' }}
+      />
 
-          <div 
-            id="hamburger" 
-            className={`hamburger ${isMenuOpen ? 'active' : ''}`}
-            onClick={toggleMenu}
+      {/* Nav Links (hidden on small screens) */}
+      <Box
+        sx={{
+          display: { xs: 'none', md: 'flex' },
+          gap: 3,
+          flexGrow: 1,
+          justifyContent: 'center',
+        }}
+      >
+        {data.map((link) => (
+          <Link
+            key={link.label}
+            href={link.href}
+            underline="none"
+            sx={{
+              color: '#fff',
+              fontSize: '1rem',
+              '&:hover': { textDecoration: 'underline' },
+            }}
           >
-            &#9776;
-          </div>
-          
-          <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`} id="navMenu">
-            {navItems.map((item, index) => (
-              <a 
-                key={index}
-                href={item.href} 
-                className="main-nav-link" 
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {item.label}
-              </a>
-            ))}
-            <div className="nav-register-wrapper">
-              <a href="register.html" className="register-link">Register</a>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  );
-}
+            {link.label}
+          </Link>
+        ))}
+      </Box>
 
-export default Navbar;
+      {/* Register Button (hidden on small screens) */}
+      <Box sx={{ display: { xs: 'none', md: 'block' } }}>
+        <Button
+          variant="contained"
+          href="#register"
+          sx={{
+            backgroundColor: '#ff0000',
+            borderRadius: '33px',
+            textTransform: 'none',
+            fontWeight: 'bold',
+            '&:hover': { backgroundColor: '#cc0000' },
+          }}
+        >
+          Register Now
+        </Button>
+      </Box>
+
+      {/* Hamburger Menu (only on small screens) */}
+      <Box sx={{ display: { xs: 'block', md: 'none' } }}>
+        <IconButton onClick={() => setDrawerOpen(true)} sx={{ color: '#fff' }}>
+          <MenuIcon />
+        </IconButton>
+      </Box>
+
+      {/* Drawer for Mobile Menu */}
+      <Drawer anchor="right" open={drawerOpen} onClose={() => setDrawerOpen(false)}>
+        <Box
+          sx={{ width: 250, backgroundColor: '#ff9a66', height: '100%', p: 2 }}
+          role="presentation"
+          onClick={() => setDrawerOpen(false)}
+        >
+          <List>
+            {data.map((link) => (
+              <ListItem button key={link.label} component="a" href={link.href}>
+                <ListItemText
+                  primary={link.label}
+                  sx={{ color: '#fff', fontWeight: 'bold' }}
+                />
+              </ListItem>
+            ))}
+            <ListItem sx={{ mt: 2 }}>
+              <Button
+                fullWidth
+                variant="contained"
+                href="#register"
+                sx={{
+                  backgroundColor: '#ff0000',
+                  borderRadius: '33px',
+                  textTransform: 'none',
+                  fontWeight: 'bold',
+                  '&:hover': { backgroundColor: '#cc0000' },
+                }}
+              >
+                Register Now
+              </Button>
+            </ListItem>
+          </List>
+        </Box>
+      </Drawer>
+    </Box>
+  );
+};
+
+export default Slide1692;

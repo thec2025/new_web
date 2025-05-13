@@ -16,8 +16,8 @@ function Committees({ data }) {
 
   const renderMemberText = (text) => {
     const parts = text.split(",");
-    const boldPart = parts.slice(0, 2).join(","); // Name + Designation
-    const rest = parts.slice(2).join(",");
+    const boldPart = parts.slice(0, 1).join(","); // Name + Designation
+    const rest = parts.slice(1).join(",");
     return (
       <Typography variant="body2">
         <strong>{boldPart}</strong>

@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from '../components/navbar';
+import Slide1692 from '../components/navbar';
 import TextSec1 from '../components/textsec1';
 import TextSec2 from '../components/textsec2';
 import conferencedata from "../data/conferenceData.json";
@@ -10,22 +10,16 @@ import { thaparLearnFellows, uqFellows } from '../data/committeeData';
 import HeroSection from '../components/Landing';
 import { Box, Container, Typography } from '@mui/material';
 import ConferenceTracks from '../components/ConferenceTracks';
+import Slide1693 from '../components/bottomblack';
+import ContactUs from '../components/contactUs';
 
 function Home() {
-  const navigationItems = [
-    { href: "#home", label: "Home" },
-    { href: "#ABOUT CONFERENCE", label: "About" },
-    { href: "#Organizers", label: "Our Team" },
-    { href: "#Conference_Tracks", label: "Conference Tracks" },
-    { href: "#contact", label: "Contact Us" },
-    { href: "abstract.html", label: "Abstract / Submissions" },
-    { href: "", label: "Schedule" }
-  ];
 
   return (
     <>
+     <Slide1692 data={conferencedata.navLinks} />
       <HeroSection />
-      <Navbar navItems={navigationItems} />
+     <Slide1693/>
       <TextSec1 data={conferencedata.about} />
       <TextSec2 data={conferencedata.tiet} />
       <DatesTable data={conferencedata.importantDates} />
@@ -46,7 +40,9 @@ function Home() {
         </Container>
       </Box>
       <Committees data={conferencedata.committees} />
+          <ContactUs data={conferencedata.footer} />
     </>
+
   );
 }
 
