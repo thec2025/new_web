@@ -69,7 +69,7 @@ const CommitteeMemberCard = ({ member }) => {
       </ImageWrapper>
       <InfoWrapper>
         <Typography variant="body1" component="p">
-          <strong>{member.name}<br/>{member.title}, {member.department}</strong>
+          <strong>{member.name}<br/>{member.title},<br /> {member.department}</strong>
         </Typography>
       </InfoWrapper>
     </CardContainer>

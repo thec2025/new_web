@@ -109,5 +109,57 @@ export const uqFellows = [
     title: "Associate Professor",
     department: "MED",
     image: "/images/Dr. duvedi.jpg"
-  }
-]; 
+  }];
+  export const goh = [
+    {
+      name : "Dr. Sue Harrison",
+      title : "Dean",
+      department : "University of Queensland",
+      image: "/images/Dr. Sue.png"
+    }
+  ];
+
+  export const gs = [
+    {
+      name : "Dr. navneet Chopta",
+      title : "Assistant Professor",
+      department : "University of Delhi",
+      image: "/images/navneet_chpra.jpg"
+    }
+  ];
+
+  export const convener = [
+    {
+      name : "Dr. Gagandeep Kaur",
+      title : "Associate Head",
+      department : "EIED",
+      image: "/images/Dr. GK.jpg"
+    },
+    {
+      name : "Dr. Amanpreet Kaur",
+      title : "Associate Professor",
+      department : "EIED",
+      image: "/images/Dr. Amanpreet.jpg"
+    }
+  ];
+
+  export const os = [
+    {
+      name : "Dr. Gurvinder Kaur",
+      title : "Associate Dean of Outreach",
+      department : "TIET Patiala",
+      image: "/images/Dr.GK.jpg"
+    },
+    {
+      name : "Dr. Parag Nijhawan",
+      title : "Associate Professor",
+      department : "TIET Patiala",
+      image: "/images/Dr.PN.jpg"
+    },
+    {
+      name : "Dr. Alka Pandita",
+      title : "Manager",
+      department : "TIET Patiala",
+      image: "/images/dr.alka.jpeg"
+    }
+  ];
