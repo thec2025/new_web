@@ -20,8 +20,8 @@ function App() {
 
   return (
     <>
-      <HeroSection />
       <Navbar navItems={navigationItems} />
+      <HeroSection />
       <TextSec1 data={conferencedata.about} />
       <TextSec2 data={conferencedata.tiet} />
       <DatesTable data={conferencedata.importantDates} />
