@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box } from '@mui/material';
-import heroImage from "../data/home.svg"
+import heroImage from "../data/home.webp"
 
 export default function HeroSection() {
   return (
