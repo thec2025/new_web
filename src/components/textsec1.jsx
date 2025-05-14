@@ -8,7 +8,7 @@ function TextSec1({data}){
     }
 
     return(
-    <Box component="section" id={data.title} sx={{ py: { xs: 6, md: 10 }, background: '#f9f9f9' }}>
+    <Box component="section" id="about-conference" sx={{ py: { xs: 6, md: 10 }, background: '#f9f9f9' }}>
             <br/>
             <Container>
                 <Typography variant="h4" component="h2" align="left" fontWeight="bold" gutterBottom color="primary.main">

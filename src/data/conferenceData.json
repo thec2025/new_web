@@ -208,6 +208,7 @@
       ],
     "navLinks": 
 
+
     [
   { "label": "Home", "path": "/" },
   { "label": "About Conference", "path": "/#ABOUT CONFERENCE" },
@@ -217,6 +218,7 @@
   { "label": "Contact Us", "path": "/#contact" },
   { "label": "Abstract/Submissions", "path": "/abstract" }
 ]
+
 
 
    ,
@@ -287,6 +289,11 @@
       {"event": "Foreign Delegates", "date": "300 USD" }
     ]
 
+  },
+  "glimpse":{
+    "title":"GLIMPSES OF FIRST CONFERENCE OBE'23",
+    "images":["/DSC_9152","/DSC_9197","/DSC_9200","/DSC_9204","/DSC_9222"]
+  
   }
 
 }
