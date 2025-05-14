@@ -40,7 +40,7 @@ function Home() {
               ORGANIZERS
         </Typography>
       </Box>
-      < Chief / >
+      < Chief/>
       <Box sx={{ py: 4 }}>
         <Container maxWidth="lg">
           <CommitteeSection 

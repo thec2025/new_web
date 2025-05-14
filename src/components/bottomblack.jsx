@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button } from '@mui/material';
+import { Box, Typography, Button,Link } from '@mui/material';
 
 const Bottombar = () => {
   return (
@@ -53,7 +53,8 @@ const Bottombar = () => {
           sx={{ width: 24, height: 24 }}
         />
         <Typography sx={{ fontSize: { xs: '1rem', md: '1.2rem' }, fontWeight: 500 }}>
-          Thapar Institute of Engineering & Technology
+          <Link href="https://www.thapar.edu/" target="_blank" rel="noopener"    underline="none"
+    sx={{ color: 'inherit' }}>Thapar Institute of Engineering & Technology</Link>
         </Typography>
       </Box>
 
