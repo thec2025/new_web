@@ -9,7 +9,7 @@ const ContactUs = ({ data }) => {
   if (!data) return null;
 
   return (
-    <Box
+    <Box  id="contact"
       sx={{
         width: '100%',
         background: '#b56e4a',

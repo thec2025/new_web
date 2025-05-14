@@ -32,6 +32,7 @@
     ]
   },
   "tracks": [
+    
     [
       {
         "title": "Experiential Learning",
@@ -228,7 +229,7 @@
     },
         {
       "label": "Abstract/Submissions",
-      "path": "/Abstract"
+      "path": "/abstract"
     },
 
     {
@@ -243,7 +244,8 @@
     "address": "Thapar Institute of Engineering and Technology, Bhadson Rd, Adarsh Nagar, Prem Nagar, Patiala, Punjab 147004",
     "email": "thec2025@thapar.edu",
     "phone1": "+91 91156 08843",
-    "phone2": "+91 98156 01313"
+    "phone2": "+91 98156 01313",
+    "path":"#contact"
   },
   "abstract":{
     "title": "Submission",
@@ -262,5 +264,16 @@
         "path": "https://cmt3.research.microsoft.com/THEC2025"
       }
     }
+  },
+  "Register":{
+    "title":"REGISTRATION GUIDELINES",
+    "description":"Delegates should register as per details given below.",
+    "p1":"All the participants have to submit the registration fee through UPI or Netbanking, in order to attend/present paper in the conference. E-receipt can be downloaded from payment portal after successful payment process.",
+    "p2":"Once the payment has been done, the authors need to fill the registration form for their confirmation.",
+    "p3":"Registration fee includes registration kit, and high tea during the conference sessions.",
+    "B_name":"IDBI Bank Ltd",
+    "B_address":"Ground and First Floor, Plot No. 644, Main Road, Kashmirian Wala Gurudwara, Tripuri Town, Patiala, Punjab - 147001",
+    "B_acc":"0267104000092579",
+    "B_bic":"IBKLINBB",
+    "B_ifsc":"IBKL0000267"}
   }
-}
