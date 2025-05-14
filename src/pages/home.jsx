@@ -27,11 +27,6 @@ function Home() {
       <ConferenceTracks tracks={conferencedata.tracks} />
       <Box sx={{py:4}}>
         <Container maxWidth = "lg">
-          <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
-            Guest of Honor
-          </Typography>
-          <CommitteeSection
-            members = {goh} />
         <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
             Guest Speaker
           </Typography>
@@ -52,7 +47,7 @@ function Home() {
             members={convener}
           />
           <CommitteeSection 
-            title="Organizing Secratary"
+            title="Organizing secretary"
             members={os}
           />
           <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
