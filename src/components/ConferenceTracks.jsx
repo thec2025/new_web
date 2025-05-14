@@ -48,7 +48,7 @@ const StyledAccordionDetails = styled(AccordionDetails)(({ theme }) => ({
 const ConferenceTracks = ({ tracks }) => {
   return (
   <Container component="section">
-    <Box>
+    <Box id="Conference_Tracks">
       <Typography variant="h4" component="h2" align="left" gutterBottom>
         CONFERENCE TRACKS
       </Typography>

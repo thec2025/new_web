@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Box, Button, IconButton, Drawer, List, ListItem, ListItemText, Link } from '@mui/material';
+import { Box, Button, IconButton, Drawer, List, ListItem, ListItemText,Link} from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import {useNavigate} from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
 
 const Navbar = ({ data }) => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -32,36 +33,58 @@ const Navbar = ({ data }) => {
       />
 
       {/* Nav Links (hidden on small screens) */}
-      <Box
-        sx={{
-          display: { xs: 'none', md: 'flex' },
-          gap: 3,
-          flexGrow: 1,
-          justifyContent: 'center',
-        }}
-      >
-        {data.map((link) => (
-          <Link
-            component="a"
-            key={link.label}
-            href={link.href}
-            underline="none"
-            sx={{
-              color: '#fff',
-              fontSize: '1rem',
-              '&:hover': { textDecoration: 'underline' },
-            }}
-          >
-            {link.label}
-          </Link>
-        ))}
-      </Box>
+    <Box
+  sx={{
+    display: { xs: 'none', md: 'flex' },
+    gap: 3,
+    flexGrow: 1,
+    justifyContent: 'center',
+  }}
+>
+{data.map((link) => {
+  const path = link.path || '#'; // Fallback to "#" if path is missing
+
+  const isHashLink = path.startsWith('#');
+
+  return isHashLink ? (
+    <Link
+      href={path}
+      key={link.label}
+      underline="none"
+      sx={{
+        color: '#fff',
+        fontSize: '1rem',
+        cursor: 'pointer',
+        '&:hover': { textDecoration: 'underline' },
+      }}
+    >
+      {link.label}
+    </Link>
+  ) : (
+    <Link
+      component={RouterLink}
+      to={path}
+      key={link.label}
+      underline="none"
+      sx={{
+        color: '#fff',
+        fontSize: '1rem',
+        cursor: 'pointer',
+        '&:hover': { textDecoration: 'underline' },
+      }}
+    >
+      {link.label}
+    </Link>
+  );
+})}
+
+</Box>
 
       {/* Register Button (hidden on small screens) */}
       <Box sx={{ display: { xs: 'none', md: 'block' } }}>
         <Button
           variant="contained"
-          href="#register"
+          href="register"
           sx={{
             backgroundColor: '#ff0000',
             borderRadius: '33px',
@@ -89,14 +112,26 @@ const Navbar = ({ data }) => {
           onClick={() => setDrawerOpen(false)}
         >
           <List>
-            {data.map((link) => (
-              <ListItem button key={link.label} component="a" href={link.href}>
-                <ListItemText
-                  primary={link.label}
-                  sx={{ color: '#fff', fontWeight: 'bold' }}
-                />
-              </ListItem>
-            ))}
+  {data.map((link) => {
+  const isHashLink = link.path.startsWith('#'); // Using `path` instead of `href`
+  
+  return isHashLink ? (
+    <ListItem button key={link.label} component="a" href={link.path}>
+      <ListItemText
+        primary={link.label}
+        sx={{ color: '#fff', fontWeight: 'bold' }}
+      />
+    </ListItem>
+  ) : (
+    <ListItem button key={link.label} component={RouterLink} to={link.path}>
+      <ListItemText
+        primary={link.label}
+        sx={{ color: '#fff', fontWeight: 'bold' }}
+      />
+    </ListItem>
+  );
+})}
+
             <ListItem sx={{ mt: 2 }}>
               <Button
                 fullWidth
