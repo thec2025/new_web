@@ -39,13 +39,13 @@ export const thaparLearnFellows = [
     name: "Dr. Gurvinder Kaur",
     title: "Associate Dean of Outreach",
     department: "SHSS",
-    image: "/images/Dr.GK.JPG"
+    image: "/images/drgur.JPG"
   },
   {
     name: "Dr. Parag Nijhawan",
     title: "Associate Professor",
     department: "EIED",
-    image: "/images/DR.PN.JPG"
+    image: "/images/drnij.JPG"
   },
   {
     name: "Dr. SC Bose",
@@ -69,7 +69,7 @@ export const thaparLearnFellows = [
     name: "Dr. Gagandeep Kaur",
     title: "Associate Head",
     department: "EIED",
-    image: "/images/DR. GK.JPG"
+    image: "/images/drgagandeep.JPG"
   }
 ];
 
