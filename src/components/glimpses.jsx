@@ -4,7 +4,7 @@ import { ArrowForward, ArrowBack } from '@mui/icons-material';
 
 const Slideshow = ({ data }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = data.images.map((image) => `${process.env.PUBLIC_URL}${image}.JPG`);
+  const images = data.images.map((image) => `${process.env.PUBLIC_URL}${image}.webp`);
 
   // Move to the next slide
   const handleNext = () => {
