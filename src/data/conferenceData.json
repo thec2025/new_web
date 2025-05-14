@@ -23,6 +23,7 @@
   },
   "importantDates": {
     "title": "IMPORTANT DATES",
+    "headers": ["EVENT", "DATE"],
     "events": [
       {"event": "Abstract Submission", "date": "15 June 2025" },
       {"event": "Acceptance of Abstract", "date": "30 June 2025" },
@@ -268,12 +269,44 @@
   "Register":{
     "title":"REGISTRATION GUIDELINES",
     "description":"Delegates should register as per details given below.",
-    "p1":"All the participants have to submit the registration fee through UPI or Netbanking, in order to attend/present paper in the conference. E-receipt can be downloaded from payment portal after successful payment process.",
-    "p2":"Once the payment has been done, the authors need to fill the registration form for their confirmation.",
-    "p3":"Registration fee includes registration kit, and high tea during the conference sessions.",
+      "description_bullets": [
+    "All the participants have to submit the registration fee through UPI or Netbanking, in order to attend/present paper in the conference. E-receipt can be downloaded from payment portal after successful payment process.",
+   "Once the payment has been done, the authors need to fill the registration form for their confirmation.",
+"Registration fee includes registration kit, and high tea during the conference sessions."
+  ],
+
     "B_name":"IDBI Bank Ltd",
     "B_address":"Ground and First Floor, Plot No. 644, Main Road, Kashmirian Wala Gurudwara, Tripuri Town, Patiala, Punjab - 147001",
     "B_acc":"0267104000092579",
     "B_bic":"IBKLINBB",
-    "B_ifsc":"IBKL0000267"}
+    "B_ifsc":"IBKL0000267",
+            "buttons": {
+      "objectives": {
+        "title": "Registration Form",
+        "path": "https://docs.google.com/forms/d/e/1FAIpQLScOyRFI3AN4zuVCZ38mtp1BPeQUyBr822eWsOTi74oAZs9lyw/viewform"
+      },
+      "outcomes": {
+        "title": "Accomodation Details",
+        "path": "images/Accommodation Details.pdf"
+      },
+      "callForPapers": {
+        "title": "Abstract/Paper Submission",
+        "path": "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FTHEC2025"
+      }
+    }},
+  
+  "Fee": {
+    "title": "Fee Details:",
+    "headers": ["CATEGORY", "FEE"],
+    "events": [
+      {"event": "Faculty Delegate", "date": "Rs 6000 + GST" },
+      {"event": "TIET Research Scholars", "date": "Rs 1000 + GST" },
+      {"event": "Other Research Scholars", "date": "Rs 1500 + GST" },
+      {"event": "Industry", "date": "Rs 8000 + GST" },
+      {"event": "Listeners", "date": "Rs 1000 +GST" },
+      {"event": "Foreign Delegates", "date": "300 USD" }
+    ]
+
   }
+
+}
