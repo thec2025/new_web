@@ -211,8 +211,8 @@
     [
   { "label": "Home", "path": "/" },
   { "label": "About Conference", "path": "/#ABOUT CONFERENCE" },
-  { "label": "Our Team", "path": "/#Organizers" },
   { "label": "Conference Tracks", "path": "/#Conference_Tracks" },
+  { "label": "Our Team", "path": "/#Organizers" },
   { "label": "Schedule", "path": "/" },
   { "label": "Contact Us", "path": "/#contact" },
   { "label": "Abstract/Submissions", "path": "/abstract" }
