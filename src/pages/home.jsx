@@ -38,12 +38,14 @@ function Home() {
           <CommitteeSection
             members = {gs} />
         </Container>
+      </Box >
+      <Box id="Organizers">
+        <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
+              ORGANIZERS
+        </Typography>
       </Box>
-      <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
-            ORGANIZERS
-      </Typography>
       < Chief / >
-      <Box id="Organizers" sx={{ py: 4 }}>
+      <Box sx={{ py: 4 }}>
         <Container maxWidth="lg">
           <CommitteeSection 
             title="Conveners"
