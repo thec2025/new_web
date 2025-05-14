@@ -11,6 +11,7 @@ import HeroSection from '../components/Landing';
 import { Box, Container, Typography } from '@mui/material';
 import ConferenceTracks from '../components/ConferenceTracks';
 import Bottombar from '../components/bottomblack';
+import Slideshow from '../components/glimpses'; 
 import ContactUs from '../components/contactUs';
 
 function Home() {
@@ -65,6 +66,10 @@ function Home() {
         </Container>
       </Box>
       <Committees data={conferencedata.committees} />
+      <Box sx={{ mt: 8 }}>
+  <Slideshow data={conferencedata.glimpse} />
+</Box>
+
           <ContactUs data={conferencedata.footer} />
     </>
 
