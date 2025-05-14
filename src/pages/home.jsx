@@ -29,7 +29,7 @@ function Home() {
       <Box sx={{py:4}}>
         <Container maxWidth = "lg">
         <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
-            Guest Speaker
+            Guest Speakers
           </Typography>
           <CommitteeSection
             members = {gs} />
