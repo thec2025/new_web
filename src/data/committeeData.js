@@ -133,7 +133,7 @@ export const uqFellows = [
       name : "Dr. Gagandeep Kaur",
       title : "Associate Head",
       department : "EIED",
-      image: "/images/Dr. GK.jpg"
+      image: "/images/drgagandeep.JPG"
     },
     {
       name : "Dr. Amanpreet Kaur",
@@ -148,13 +148,13 @@ export const uqFellows = [
       name : "Dr. Gurvinder Kaur",
       title : "Associate Dean of Outreach",
       department : "TIET Patiala",
-      image: "/images/Dr.GK.jpg"
+      image: "/images/drgur.JPG"
     },
     {
       name : "Dr. Parag Nijhawan",
       title : "Associate Professor",
       department : "TIET Patiala",
-      image: "/images/Dr.PN.jpg"
+      image: "/images/drnij.JPG"
     },
     {
       name : "Dr. Alka Pandita",
