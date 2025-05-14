@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Box, Button, IconButton, Drawer, List, ListItem, ListItemText, Link } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useNavigate } from 'react-router-dom';
-import { Link as RouterLink } from 'react-router-dom';
 
 const Navbar = ({ data }) => {
   const [drawerOpen, setDrawerOpen] = useState(false);
