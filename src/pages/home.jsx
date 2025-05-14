@@ -13,6 +13,7 @@ import ConferenceTracks from '../components/ConferenceTracks';
 import Bottombar from '../components/bottomblack';
 import Slideshow from '../components/glimpses'; 
 import ContactUs from '../components/contactUs';
+import Chief from '../components/pcp';
 
 function Home() {
 
@@ -38,12 +39,15 @@ function Home() {
           <CommitteeSection
             members = {gs} />
         </Container>
+      </Box >
+      <Box id="Organizers">
+        <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
+              ORGANIZERS
+        </Typography>
       </Box>
-      <Box id="Organizers" sx={{ py: 4 }}>
+      < Chief / >
+      <Box sx={{ py: 4 }}>
         <Container maxWidth="lg">
-          <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
-            ORGANIZERS
-          </Typography>
           <CommitteeSection 
             title="Conveners"
             members={convener}

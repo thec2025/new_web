@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Register from "./pages/register";
-import Abstract from "./pages/abstract";
+import Abstract from "./pages/Abstract";
 
 function App(){
   return(
