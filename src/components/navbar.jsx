@@ -27,19 +27,21 @@ const Navbar = ({ data }) => {
   return (
       <Box
         sx={{
-          width: '100%',
-          background: 'linear-gradient(90deg, #ff5576, #ff9a66)',
-          color: '#fff',
-          px: 3,
-          py: 2,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          flexWrap: 'nowrap',
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          zIndex: 1300,
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100%',          // Use width 100% here instead of right: 0
+    zIndex: 1300,
+    background: 'linear-gradient(90deg, #ff5576, #ff9a66)',
+    color: '#fff',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    flexWrap: 'nowrap',
+    px: 3,
+    py: 2,
+    boxSizing: 'border-box',
+    overflowX: 'hidden',
         }}
       >
 
@@ -57,6 +59,7 @@ const Navbar = ({ data }) => {
           display: { xs: 'none', md: 'flex' },
           gap: 3,
           flexGrow: 1,
+          
           justifyContent: 'center',
         }}
       >

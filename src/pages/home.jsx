@@ -45,7 +45,7 @@ function Home() {
       < Chief/>
       <Box sx={{ py: 4 }}>
         <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
-              Patrons
+            Organizers
         </Typography>
         <Container maxWidth="lg">
           <CommitteeSection 
