@@ -22,7 +22,9 @@ function Home() {
       <Navbar data={conferencedata.navLinks} />
       <HeroSection />
       <Bottombar/>
-      <TextSec1 data={conferencedata.about} />
+      <Box id = "about">
+        <TextSec1 data={conferencedata.about} />
+      </Box>
       <TextSec2 data={conferencedata.tiet} />
       <DatesTable data={conferencedata.importantDates} />
       <ConferenceTracks tracks={conferencedata.tracks} />

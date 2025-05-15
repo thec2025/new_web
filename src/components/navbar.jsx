@@ -25,19 +25,24 @@ const Navbar = ({ data }) => {
   };
 
   return (
-    <Box
-      sx={{
-        width: '100%',
-        background: 'linear-gradient(90deg, #ff5576, #ff9a66)',
-        color: '#fff',
-        px: 3,
-        py: 2,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        flexWrap: 'nowrap',
-      }}
-    >
+      <Box
+        sx={{
+          width: '100%',
+          background: 'linear-gradient(90deg, #ff5576, #ff9a66)',
+          color: '#fff',
+          px: 3,
+          py: 2,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          flexWrap: 'nowrap',
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          zIndex: 1300,
+        }}
+      >
+
       {/* Logo */}
       <Box
         component="img"
