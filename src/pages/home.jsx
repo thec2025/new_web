@@ -39,11 +39,14 @@ function Home() {
       </Box >
       <Box id="Organizers">
         <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
-              ORGANIZERS
+              Patrons
         </Typography>
       </Box>
       < Chief/>
       <Box sx={{ py: 4 }}>
+        <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
+              Patrons
+        </Typography>
         <Container maxWidth="lg">
           <CommitteeSection 
             title="Conveners"
