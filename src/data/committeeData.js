@@ -129,7 +129,7 @@ export const uqFellows = [
     {
       name : "Prof. Bhola Ram Gurjar ",
       title : "Director",
-      department : "Director NITTTR, Chandigarh",
+      department : "NITTTR, Chandigarh",
       image: "/images/dixit.jpg"
     },{
       name : "Dr. Rajesh Kumar Dixit",
