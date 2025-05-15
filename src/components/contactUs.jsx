@@ -12,7 +12,7 @@ const ContactUs = ({ data }) => {
     <Box  id="contact"
       sx={{
         width: '100%',
-        background: '#b56e4a',
+        background: '#ff9a66',
         color: '#fff',
         px: 3,
         py: 4,
