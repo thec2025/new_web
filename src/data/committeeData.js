@@ -127,14 +127,14 @@ export const uqFellows = [
       image: "/images/navneet_chpra.jpg"
     },
     {
-      name : "Dr. Bhola Ram Gurjar ",
-      title : " Professor",
-      department : " NITTR, Bhopal.",
+      name : "Prof. Bhola Ram Gurjar ",
+      title : "Director",
+      department : "Director NITTTR, Chandigarh",
       image: "/images/dixit.jpg"
     },{
       name : "Dr. Rajesh Kumar Dixit",
-      title : "Director",
-      department : "Director NITTTR, Chandigarh",
+      title : "Professor",
+      department : " NITTR, Bhopal.",
       image: "/images/gurjar1.jpg"
     }
   ];
