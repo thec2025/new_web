@@ -31,7 +31,7 @@
     "title": "IMPORTANT DATES",
     "headers": ["EVENT", "DATE"],
     "events": [
-      {"event": "Early Bird Registration", "date": "15 June 2025" },
+      {"event": "Early Bird Registration", "date": "15 July 2025" },
       {"event": "Abstract Submission", "date": "15 June 2025" },
       {"event": "Acceptance of Abstract", "date": "30 June 2025" },
       {"event": "Fee Submission", "date": "15 July 2025" },
@@ -173,6 +173,8 @@
     {
       "title": "Advisory Committee",
       "members": [
+"Prof. Bhola Ram Gurjar, Director,National Institute of Technical Teachers Training & Research, Chandigarh, India",
+"Prof. C. Rama Krishna , Dean (Administration & Finance), National Institute of Technical Teachers Training & Research, Chandigarh, India",
 "Prof. Nir Ohad, Chair Professor, Tel Aviv University, Israel",
 "Prof. Tim Miller, Chair Professor, University of Queensland, Australia",
 "Prof. Noam Eliaz, Chair Professor, Tel Aviv University, Israel",
@@ -193,27 +195,28 @@
     {
       "title": "Technical Program Committee",
       "members": [
-        "Dr. Gagandeep Kaur, TIET, Patiala, India",
-        "Dr. Amanpreet Kaur,  TIET, Patiala, India",
-        "Dr. Gurvinder Kaur,  TIET, Patiala, India",
-        "Dr. Dwarika Nath Ratha,  TIET, Patiala, India",
-        "Dr. Alka Pandita, Manager, TIET, Patiala, India",
-  "Dr. Sharad Saxena, TIET, Patiala, India",
-"Dr. Neloy Kumar Chakroborty, TIET, Patiala, India",
-"Dr. Sheikh Adil Edrisi, TIET, Patiala, India",
-"Dr. Amjad Ali, TIET, Patiala, India",
-"Dr. Ravinder Kumar Duvedi, TIET, Patiala, India",
+       "Dr. Dwarika Nath Ratha, TIET, Patiala, India",
+"Prof . Surinder Sharma, Himachal Pradesh University",
+"Dr Ritika Sharma, Himachal Pradesh University",
+"Prof. B.L. Gupta, NITTTR, Bhopal",
+"Dr. Ranjit Singh Chauhan, NITTTR, Bhopal",
+"Prof. P. K. Tulsi, NITTTR, Chandigarh.",
+"Prof. Urmila Kar, NITTTR, Kolkata",
+"Prof. S.K. Naskar, NITTTR, Kolkata",
+"Dr. P S Grover, (Retd.) Ex Director– Delhi University",
+"Prof. Pankaj Sharma, NITTTR, Chandigarh",
+"Dr. Ritula Thakur, NITTTR, Chandigarh",
+"Dr. Balwinder Singh Dhaliwal, NITTTR Chandigarh",
+"Dr. Amandeep Kaur, NITTTR, Chandigarh",
 "Dr. Himanshu Jindal, Amity University, India",
 "Dr. Monika Bharti, Amity University, India",
 "Dr. Deepak Mehta, Jain University, India",
 "Dr. Aakashdeep Kaur, PEC, India",
 "Dr. Komal Singh Gill, LPU, India",
 "Dr. Krishan Kumar Saluja, Panjab University, India",
-"Dr. Monika Sachdeva, I.K. Gujral Punjab Technical University – Mohali Campus I, India",
+"Dr. Monika Sachdeva, I.K. Gujral Punjab Technical University, Mohali, India",
 "Dr. Neelam Chadda, NTPC, Nagpur, India",
-"Dr. Paramjit Singh, MRS PTU, India",
-"Mr. Harcharan Jit Singh, TIET, Patiala, India",
-"Mr. Aeiman Preet Singh, TIET, Patiala, India"
+"Dr. Paramjit Singh, Maharaja Ranjit Singh, PTU, India"
       ]
     },
     {
@@ -324,8 +327,8 @@
       {"event": "Listeners", "date": "Rs 1000 +GST" },
       {"event": "Foreign Delegates", "date": "300 USD" },
       {"event": "", "date": "" },
-      {"event": "Early Bird Registration (Indian Authors) 15 June 2025", "date": "Rs 5000 + GST" },
-      {"event": "Early Bird Registration (Foreign Authors) 15 June 2025", "date": "250 USD" }
+      {"event": "Early Bird Registration (Indian Authors) 15 July 2025", "date": "Rs 5000 + GST" },
+      {"event": "Early Bird Registration (Foreign Authors) 15 July 2025", "date": "250 USD" }
       
     ]
 
