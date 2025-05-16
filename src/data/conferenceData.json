@@ -22,7 +22,12 @@
   "image":"/campus.jpg",
     "description": "Thapar Institute of Engineering and Technology (TIET) was established in 1956 and is today recognized amongst the leading institutions of the country. As a result of the inspiring vision and perseverance of the founders, TIET has steadily and impressively grown in size and activities during the last seven decades of its existence. Keeping pace with emerging global standards, globalization, and advanced technology, Thapar Institute offers education ecosystems with quality learning, ranked and recognized worldwide. Our rankings are by the foremost global educational ranking organizations. TIET has consistently been ranked amongst the top 30 engineering institutions in the annual National Rankings (NIRF). The Institution is accredited as an A++ Institution (only the top 4% of Universities fall in this category) by the National Assessment and Accreditation Council (NAAC). In addition, eligible programs are also NBA and ABET-accredited. Presently, TIET is among the few top Indian universities that feature in the top 500 of Times Higher Education and QS world subject rankings. TIET's teaching and learning practices emphasize student-centric learning and the outcomes-based and project-led approaches that bring out the best in each student. The diverse programs in Engineering, Sciences, Management, and Liberal Arts aim to develop the quality of mind, ethical standards, social awareness, and global perspectives."
   },
-  "importantDates": {
+   "nitttr": {
+    "title": "ABOUT NITTTR",
+  "image":"/nittr_campus.jpg",
+    "description": "In realization of the need for training better quality technicians to meet the large scale industrialization of the country, the ministry of Human Resource Development (the then Ministry of Education), Government of India established four Regional Technical Teachers' Training Institutes (now National Institute of Technical Teachers Training & Research, NITTTR at Bhopal, Chandigarh, Chennai and Kolkata in 1967. The Institute at Chandigarh is one of these four NITTTRs, started in collaboration with Royal Netherlands Government (upto 1974). It was designed to meet the requirements of developing polytechnic education in the northern region covering the states of Jammu and Kashmir, Himachal Pradesh, Punjab, Haryana, Rajasthan, Uttar Pradesh, Uttarakhand, Delhi and Union Territory of Chandigarh. The Institute is registered under the Societies Registration Act, 1860 and is managed by a Board of Governors."
+   },
+    "importantDates": {
     "title": "IMPORTANT DATES",
     "headers": ["EVENT", "DATE"],
     "events": [

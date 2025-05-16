@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from '../components/navbar';
 import TextSec1 from '../components/textsec1';
 import TextSec2 from '../components/textsec2';
+import TextSec3 from '../components/textsec3';
 import conferencedata from "../data/conferenceData.json";
 import DatesTable from '../components/dates_table';
 import CommitteeSection from '../components/CommitteeSection';
@@ -41,8 +42,10 @@ function Home() {
 </Box>
       <Box id = "about">
         <TextSec1 data={conferencedata.about} />
+
       </Box>
       <TextSec2 data={conferencedata.tiet} />
+      <TextSec3 data={conferencedata.nitttr} />
       <DatesTable data={conferencedata.importantDates} />
       <ConferenceTracks tracks={conferencedata.tracks} />
       <Box sx={{py:4}}>
