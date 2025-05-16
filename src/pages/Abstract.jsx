@@ -37,7 +37,7 @@ function Abstract(){
       key={index}
       component="li"
       variant="body1"
-      sx={{ fontSize: "1.2rem", lineHeight: 1.8 }}
+      sx={{ fontSize: "1.2rem", lineHeight: 1.8, fontWeight: "bold" }}
     >
       {item}
     </Typography>

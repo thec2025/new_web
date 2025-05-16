@@ -26,11 +26,13 @@
     "title": "IMPORTANT DATES",
     "headers": ["EVENT", "DATE"],
     "events": [
+      {"event": "Early Bird Registration", "date": "15 June 2025" },
       {"event": "Abstract Submission", "date": "15 June 2025" },
       {"event": "Acceptance of Abstract", "date": "30 June 2025" },
       {"event": "Fee Submission", "date": "15 July 2025" },
       {"event": "Full Paper Submission", "date": "15 August 2025" },
       {"event": "Full Paper Acceptance", "date": "30 August 2025" }
+    
     ]
   },
   "tracks": [
@@ -276,7 +278,7 @@
 "Registration fee includes registration kit, and high tea during the conference sessions."
   ]},
 
-  "register":{
+  "Register":{
     "title":"REGISTRATION GUIDELINES",
     "description":"Delegates should register as per details given below.",
       "description_bullets": [
@@ -314,7 +316,11 @@
       {"event": "Other Research Scholars", "date": "Rs 1500 + GST" },
       {"event": "Industry", "date": "Rs 8000 + GST" },
       {"event": "Listeners", "date": "Rs 1000 +GST" },
-      {"event": "Foreign Delegates", "date": "300 USD" }
+      {"event": "Foreign Delegates", "date": "300 USD" },
+      {"event": "", "date": "" },
+      {"event": "Early Bird Registration (Indian Authors) 15 June 2025", "date": "Rs 5000 + GST" },
+      {"event": "Early Bird Registration (Foreign Authors) 15 June 2025", "date": "250 USD" }
+      
     ]
 
   },
