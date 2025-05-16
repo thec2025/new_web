@@ -134,7 +134,7 @@ export const uqFellows = [
     },{
       name : "Dr. Rajesh Kumar Dixit",
       title : "Professor",
-      department : " NITTR, Bhopal.",
+      department : " NITTR, Bhopal",
       image: "/images/gurjar1.jpg"
     }
   ];
@@ -168,9 +168,49 @@ export const uqFellows = [
       image: "/images/drnij.JPG"
     },
     {
+      name : "Dr MEENAKSHI SOOD",
+      title : "Associate Dean Outreach",
+      department : "NITTTR CHANDIGARH",
+      image: "/images/drms.jpg"
+    },
+    {
       name : "Dr. Alka Pandita",
-      title : "Manager",
+      title : "Assistant Profesor",
       department : "TIET Patiala",
-      image: "/images/dr.alka.jpeg"
+      image: "/images/alka.png"
     }
+  ];
+
+  export const nit = [
+    {
+      name : "Prof. Maitreyee Dutta",
+      title: "Professor",
+      department : "NITTR",
+      image: "images/md.jpg"
+    },
+    {
+    name: "Prof. Sandeep Singh Gill",
+    title: "Professor",
+    department: "Head, Talent Acquisition , NITTR",
+    additionalRoles: "Head, Talent Acquisition and Skill Development Centre",
+    image: "images/gill.jpg" 
+  },
+  {
+    name: "Prof.(Dr.) C. Rama Krishna",
+    title: "Dean",
+    department: "Administration & Finance",
+    image: "images/crk.jpg" 
+  },
+  {
+    name: "Prof.(Dr.) Rupinder Singh",
+    title: "Dean",
+    department: "Research and Innovation",
+    image: "images/rup.jpg" 
+  },
+  {
+    name: "Prof.(Dr.) A B Gupta",
+    title: "Head",
+    department: "EMGT",
+    image: "ab.jpg" 
+  }
   ];
