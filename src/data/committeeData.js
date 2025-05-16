@@ -184,21 +184,22 @@ export const uqFellows = [
   export const nit = [
     {
       name : "Prof. Maitreyee Dutta",
-      title: "Professor",
-      department : "NITTR",
+      title: "Professor,"
+,
+      department : "Head IMEE, NITTTR",
       image: "images/md.jpg"
     },
     {
     name: "Prof. Sandeep Singh Gill",
     title: "Professor",
-    department: "Head, Talent Acquisition , NITTR",
+    department: "Head, Talent Acquisition, NITTTR",
     additionalRoles: "Head, Talent Acquisition and Skill Development Centre",
     image: "images/gill.jpg" 
   },
   {
     name: "Prof.(Dr.) C. Rama Krishna",
     title: "Dean",
-    department: "Administration & Finance",
+    department: "Administration & Finance, NITTTR",
     image: "images/crk.jpg" 
   },
   {
@@ -211,6 +212,6 @@ export const uqFellows = [
     name: "Prof.(Dr.) A B Gupta",
     title: "Head",
     department: "EMGT",
-    image: "ab.jpg" 
+    image: "images/ab.jpg" 
   }
   ];
