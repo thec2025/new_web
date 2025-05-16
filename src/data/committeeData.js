@@ -138,13 +138,13 @@ export const uqFellows = [
     {
       name : "Dr. Gagandeep Kaur",
       title : "Associate Head",
-      department : "EIED",
+      department : "EIED, TIET Patiala",
       image: "/images/drgagandeep.JPG"
     },
     {
       name : "Dr. Amanpreet Kaur",
       title : "Associate Professor",
-      department : "EIED",
+      department : "EIED., TIET Patiala",
       image: "/images/Dr. Amanpreet.jpg"
     }
   ];
@@ -163,7 +163,7 @@ export const uqFellows = [
       image: "/images/drnij.JPG"
     },
     {
-      name : "Dr Meenakshi Sood",
+      name : "Dr. Meenakshi Sood",
       title : "Associate Dean Outreach",
       department : "NITTTR CHANDIGARH",
       image: "/images/drms.jpg"
