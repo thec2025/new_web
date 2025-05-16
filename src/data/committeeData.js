@@ -165,7 +165,7 @@ export const uqFellows = [
     {
       name : "Dr. Meenakshi Sood",
       title : "Associate Dean Outreach",
-      department : "NITTTR CHANDIGARH",
+      department : "NITTTR Chandigarh",
       image: "/images/drms.jpg"
     },
     {
@@ -181,32 +181,32 @@ export const uqFellows = [
       name : "Dr. Maitreyee Dutta",
       title: "Professor,"
 ,
-      department : "Head IMEE, NITTTR",
+      department : "Head IMEE, NITTTR Chandigarh",
       image: "images/md.jpg"
     },
     {
     name: "Dr. Sandeep Singh Gill",
     title: "Professor",
-    department: "Head, Talent Acquisition, NITTTR",
+    department: "Head, Talent Acquisition, NITTTR Chandigarh",
     additionalRoles: "Head, Talent Acquisition and Skill Development Centre",
     image: "images/gill.jpg" 
   },
   {
     name: "Dr. C. Rama Krishna",
     title: "Dean",
-    department: "Administration & Finance, NITTTR",
+    department: "Administration & Finance, NITTTR Chandigarh",
     image: "images/crk.jpg" 
   },
   {
     name: "Dr. Rupinder Singh",
     title: "Dean",
-    department: "Research and Innovation, NITTTR",
+    department: "Research and Innovation, NITTTR Chandigarh",
     image: "images/rup.jpg" 
   },
   {
     name: "Dr. A B Gupta",
     title: "Head.EMGT",
-    department: "NITTTR",
+    department: "NITTTR Chandigarh",
     image: "images/ab.jpg" 
   }
   ];

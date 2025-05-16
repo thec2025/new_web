@@ -278,14 +278,18 @@
       }
     }
   },
-    "":{
-    "title":"REGISTRATION GUIDELINES",
-    "description":"Delegates should register as per details given below.",
-      "description_bullets": [
-    "All the participants have to submit the registration fee through UPI or Netbanking, in order to attend/present paper in the conference. E-receipt can be downloaded from payment portal after successful payment process.",
-   "Once the payment has been done, the authors need to fill the registration form for their confirmation.",
-"Registration fee includes registration kit, and high tea during the conference sessions."
-  ]},
+  "Abst":{
+    "title": "Plagiarism and Publication Ethics Guidelines",
+    "description":"Before submission, the paper must be checked for plagiarism using licensed software such as Turnitin, iThenticate, CrossCheck, or equivalent tools. The overall similarity index must not exceed 15%, including both self-similarity and similarity with other sources. Authors are required to strictly adhere to the following ethical guidelines for publication:",
+    "description_bullets":[
+"Plagiarism of any kind, including self-plagiarism or copying from others' work, is strictly prohibited.",
+"If your article includes any model, concept, figure, table, data, or conclusive remark from previously published work, you must properly cite the original source.",
+"The language used to explain adopted material should be distinctly different from that of the original source.",
+"If any copyrighted material is used, prior permission from the copyright holder must be obtained.",
+"Failure to comply with these ethical standards may result in the rejection of the manuscript."
+    ]
+  },
+
 
   "Register":{
     "title":"REGISTRATION GUIDELINES",
