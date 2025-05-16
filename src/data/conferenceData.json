@@ -173,19 +173,20 @@
     {
       "title": "Advisory Committee",
       "members": [
-        "Prof. Nir Ohad, Tel Aviv University, Chair professor, Israel.",
-        "Prof Tim Miller, University of Queensland, Chair professor, Australia.",
-        "Prof. Noam Eliaz, Tel Aviv University, Chair professor, Israel.",
-        "Prof. Rooplal Mahajan, Virginia Tech, Chair professor, Virginia.",
-        "Prof. Sanjeev Bedi, University of Waterloo, Chair Professor, Canada.",
-        "Prof. Aard Groen, University of Groningen, Chair Professor, Netherlands.",
-        "Prof Roger West, Emeritus Prof. Civil Engineering, TIET, India.",
-        "Prof. Mike Wride, Associate Professor, University of Limerick, Ireland.",
-        "Prof. Ram Fishman, Professor, Tel Aviv University, Israel.",
-        "Prof. Guru Ghosh, Virginia Tech, Virginia.",
-        "Prof. Hadas Mamane, Tel Aviv University, Israel.",
-        "Prof. Gurdip Singh, George Mason University, Virginia.",
-        "Prof Hans van Ees, Honorary Dean, Thapar school of Liberal Arts, Professor, University of Groningen."
+"Prof. Nir Ohad, Chair Professor, Tel Aviv University, Israel",
+"Prof. Tim Miller, Chair Professor, University of Queensland, Australia",
+"Prof. Noam Eliaz, Chair Professor, Tel Aviv University, Israel",
+"Prof. Rooplal Mahajan, Chair Professor, Virginia Tech, Virginia, USA",
+"Prof. Sanjeev Bedi, Chair Professor, University of Waterloo, Canada",
+"Prof. Aard Groen, Chair Professor, University of Groningen, Netherlands",
+"Prof. Roger West, Emeritus Professor, Civil Engineering, Thapar Institute of Engineering and Technology, India",
+"Prof. Mike Wride, Associate Professor, University of Limerick, Ireland",
+"Prof. Ram Fishman, Professor, Tel Aviv University, Israel",
+"Prof. Guru Ghosh, Professor, Virginia Tech, Virginia, USA",
+"Prof. Hadas Mamane, Professor, Tel Aviv University, Israel",
+"Prof. Gurdip Singh, Professor, George Mason University, Virginia, USA",
+"Prof. Hans van Ees, Honorary Dean, Thapar School of Liberal Arts, and Professor, University of Groningen, Netherlands"
+
 
       ]
     },
