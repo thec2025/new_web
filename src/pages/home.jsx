@@ -22,21 +22,23 @@ function Home() {
       <Navbar data={conferencedata.navLinks} />
       <HeroSection />
       <Bottombar/>
-<Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, my: 4 }}>
-  <Box
-    component="img"
-    src="/tiet.png"
-    alt="Image 1"
-    sx={{ width: 300, height:'auto', borderRadius: 2 }}
-  />
-  <Box
-    component="img"
-    src="/nitttr.jpeg"
-    alt="Image 2"
-    sx={{ width: 200, height: 'auto', borderRadius: 2 }}
-  />
-</Box>
+<Box sx={{ width: '100%'}}>
+  <Box sx={{ display: 'flex', justifyContent: 'flex-end', gap: 2, my: 4 ,pr:4,mb:0 }}>
+    <Box
+      component="img"
+      src="/tiet.png"
+      alt="Image 1"
+      sx={{ width: 120, height: 'auto', borderRadius: 2 }}
 
+    />
+    <Box
+      component="img"
+      src="/nitttr.jpeg"
+      alt="Image 2"
+      sx={{ width: 100, height: 'auto', borderRadius: 2 }}
+    />
+  </Box>
+</Box>
       <Box id = "about">
         <TextSec1 data={conferencedata.about} />
       </Box>
@@ -75,7 +77,7 @@ function Home() {
             Organizing Committee
           </Typography>
           <CommitteeSection 
-            title="NITTR"
+          
             members={nit}
           />
           <CommitteeSection 

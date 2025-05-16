@@ -5,7 +5,7 @@ const TextSec1 = ({ data }) => {
   if (!data) return null;
 
   return (
-    <Box component="section" sx={{ py: { xs: 6, md: 10 }, background: '#f9f9f9' }}>
+    <Box component="section" sx={{  pt: { xs: 2, md: 4 }, pb: { xs: 6, md: 10 }, background: '#f9f9f9' }}>
       <Container>
         <Grid container spacing={4} alignItems="center">
           
