@@ -2,73 +2,73 @@ export const thaparLearnFellows = [
   {
     name: "Dr. Rajesh Khanna",
     title: "Professor",
-    department: "ECED",
+    department: "ECED, TIET Patiala",
     image: "/images/DrRK.JPG"
   },
   {
     name: "Dr. T.P Singh",
     title: "Professor",
-    department: "MED",
+    department: "MED, TIET Patiala",
     image: "/images/tp_singh_40992.jpg"
   },
   {
     name: "Dr. Manmohan Chhibber",
     title: "Professor",
-    department: "DCBC",
+    department: "DCBC, TIET Patiala",
     image: "/images/Dr_Manmohan-medium_39157.jpg"
   },
   {
     name: "Dr. Anoop Verma",
     title: "Professor",
-    department: "DEE",
+    department: "DEE, TIET Patiala",
     image: "/images/Dr.AV.JPG"
   },
   {
     name: "Dr. Meenakshi Rana",
     title: "Professor",
-    department: "SOM",
+    department: "SOM, TIET Patiala",
     image: "/images/Dr.MR.JPG"
   },
   {
     name: "Dr. Karmindar Ghuman",
     title: "Chief Coordinator",
-    department: "LMTSM",
+    department: "LMTSM, TIET Patiala",
     image: "/images/karminder ghuman.jpg"
   },
   {
     name: "Dr. Gurvinder Kaur",
     title: "Associate Dean of Outreach",
-    department: "SHSS",
+    department: "SHSS, TIET Patiala",
     image: "/images/drgur.JPG"
   },
   {
     name: "Dr. Parag Nijhawan",
     title: "Associate Professor",
-    department: "EIED",
+    department: "EIED, TIET Patiala",
     image: "/images/drnij.JPG"
   },
   {
     name: "Dr. SC Bose",
     title: "Associate Professor",
-    department: "SHSS",
+    department: "SHSS, TIET Patiala",
     image: "/images/scbose.jpg"
   },
   {
     name: "Dr. Lovleen Brar",
     title: "Associate Professor",
-    department: "SPMS",
+    department: "SPMS, TIET Patiala",
     image: "/images/DR LB.JPG"
   },
   {
     name: "Dr. Amanpreet Kaur",
     title: "Assistant Professor",
-    department: "ECED",
+    department: "ECED, TIET Patiala",
     image: "/images/Dr. Amanpreet.jpg"
   },
   {
     name: "Dr. Gagandeep Kaur",
     title: "Associate Head",
-    department: "EIED",
+    department: "EIED, TIET Patiala",
     image: "/images/drgagandeep.JPG"
   }
 ];
@@ -77,37 +77,37 @@ export const uqFellows = [
   {
     name: "Dr. Manmohan Chhibber",
     title: "Professor",
-    department: "DCBC",
+    department: "DCBC, TIET Patiala",
     image: "/images/Dr_Manmohan-medium_39157.jpg"
   },
   {
     name: "Dr. Sharad Saxena",
     title: "Associate Professor",
-    department: "DCSE",
+    department: "DCSE, TIET Patiala",
     image: "/images/DR.SHARAD.jpg"
   },
   {
     name: "Dr. Neloy Kumar Chakroborty",
     title: "Assistant Professor",
-    department: "TSLAS",
+    department: "TSLAS, TIET Patiala",
     image: "/images/Dr.Neloy.jpg"
   },
   {
     name: "Dr. Sheikh Adil Edrisi",
     title: "Assistant Professor",
-    department: "TSLAS",
+    department: "TSLAS, TIET Patiala",
     image: "/images/Dr.Adil.jpg"
   },
   {
     name: "Dr. Amjad Ali",
     title: "Professor",
-    department: "DCBC",
+    department: "DCBC, TIET Patiala",
     image: "/images/DR. AMJAD.jpg"
   },
   {
     name: "Dr. Ravinder Kumar Duvedi",
     title: "Associate Professor",
-    department: "MED",
+    department: "MED, TIET Patiala",
     image: "/images/Dr. duvedi.jpg"
   }];
   export const goh = [
@@ -129,7 +129,7 @@ export const uqFellows = [
 ,{
       name : "Dr. Rajesh Kumar Dixit",
       title : "Professor",
-      department : " NITTR, Bhopal",
+      department : " NITTTR, Bhopal",
       image: "/images/gurjar1.jpg"
     }
   ];
@@ -200,7 +200,7 @@ export const uqFellows = [
   {
     name: "Dr. Rupinder Singh",
     title: "Dean",
-    department: "Research and Innovation, NITTR",
+    department: "Research and Innovation, NITTTR",
     image: "images/rup.jpg" 
   },
   {
