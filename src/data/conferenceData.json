@@ -19,6 +19,7 @@
   },
   "tiet": {
     "title": "ABOUT TIET",
+  "image":"/campus.jpg",
     "description": "Thapar Institute of Engineering and Technology (TIET) was established in 1956 and is today recognized amongst the leading institutions of the country. As a result of the inspiring vision and perseverance of the founders, TIET has steadily and impressively grown in size and activities during the last seven decades of its existence. Keeping pace with emerging global standards, globalization, and advanced technology, Thapar Institute offers education ecosystems with quality learning, ranked and recognized worldwide. Our rankings are by the foremost global educational ranking organizations. TIET has consistently been ranked amongst the top 30 engineering institutions in the annual National Rankings (NIRF). The Institution is accredited as an A++ Institution (only the top 4% of Universities fall in this category) by the National Assessment and Accreditation Council (NAAC). In addition, eligible programs are also NBA and ABET-accredited. Presently, TIET is among the few top Indian universities that feature in the top 500 of Times Higher Education and QS world subject rankings. TIET's teaching and learning practices emphasize student-centric learning and the outcomes-based and project-led approaches that bring out the best in each student. The diverse programs in Engineering, Sciences, Management, and Liberal Arts aim to develop the quality of mind, ethical standards, social awareness, and global perspectives."
   },
   "importantDates": {
@@ -148,16 +149,17 @@
         ]
       },
       {
-        "title": "Changing Paradigm in higher Education Scenario",
+        "title": "Changing Paradigm in Higher Education Scenario",
         "items": [
-          "Traditional Education system",
-          "Indian knowledge system",
-	        "Evolution of education policy in India ",
+          "Traditional Education System",
+          "Indian Knowledge System",
+	        "Evolution of Education Policy in India ",
 	        "National Education Policy 2020",
-	        "Global Trends in Education System: Success and Failure Stories of different nations",
-          "Bibliometric analysis"
+	        "Global Trends in Education System: Success and Failure Stories of Different Nations",
+          "Bibliometric Analysis"
         ]
       }
+      
     ]
   ],
   "committees": [
@@ -183,27 +185,27 @@
     {
       "title": "Technical Program Committee",
       "members": [
-        "Dr. Gagandeep Kaur, Associate Head, EIED, TIET, Patiala, India",
-        "Dr. Amanpreet Kaur, Associate Professor, ECED, TIET, Patiala, India",
-        "Dr. Gurvinder Kaur, Associate Dean of Outreach, TIET, Patiala, India",
-        "Dr. Dwarika Nath Ratha, Professor, DCE, TIET, Patiala, India",
+        "Dr. Gagandeep Kaur, TIET, Patiala, India",
+        "Dr. Amanpreet Kaur,  TIET, Patiala, India",
+        "Dr. Gurvinder Kaur,  TIET, Patiala, India",
+        "Dr. Dwarika Nath Ratha,  TIET, Patiala, India",
         "Dr. Alka Pandita, Manager, TIET, Patiala, India",
-        "Dr. Sharad Saxena, Associate Professor, DCSE, TIET, Patiala, India",
-        "Dr. Neloy Kumar Chakroborty, Assistant Professor, TSLAS, TIET, Patiala, India",
-        "Dr. Sheikh Adil Edrisi, Assistant Professor, TSLAS, TIET, Patiala, India",
-        "Dr. Amjad Ali, Professor, DCBC, TIET, Patiala, India",
-        "Dr. Ravinder Kumar Duvedi, Associate Professor, DME, TIET, Patiala, India",
-        "Dr. Himanshu Jindal, Assistant Professor, Amity University, India",
-        "Dr. Monika Bharti, Assistant Professor, Amity University, India",
-        "Dr. Deepak Mehta, Associate Professor, Jain University, India",
-        "Dr. Aakashdeep Kaur, Assistant Professor, PEC, India",
-        "Dr. Komal Singh Gill, Assistant Professor, LPU, India",
-        "Dr. Krishan Kumar Saluja, Professor, DIT, University Institute of Engineering & Technology, Panjab University, India",
-        "Dr. Monika Sachdeva, Professor, Computer Science, I.K. Gujral Punjab Technical University – Mohali Campus I, India",
-        "Dr. Neelam Chadda, GM, NTPC, Nagpur, India",
-        "Dr. Paramjit Singh, Professor (Computer), Dean Student Affairs, MRS PTU, India",
-        "Mr. Harcharan Jit Singh, Senior Systems Analyst IT, TIET, Patiala, India",
-        "Mr. Aeiman Preet Singh, Sr. Associate, System Administration, TIET, Patiala, India"
+  "Dr. Sharad Saxena, TIET, Patiala, India",
+"Dr. Neloy Kumar Chakroborty, TIET, Patiala, India",
+"Dr. Sheikh Adil Edrisi, TIET, Patiala, India",
+"Dr. Amjad Ali, TIET, Patiala, India",
+"Dr. Ravinder Kumar Duvedi, TIET, Patiala, India",
+"Dr. Himanshu Jindal, Amity University, India",
+"Dr. Monika Bharti, Amity University, India",
+"Dr. Deepak Mehta, Jain University, India",
+"Dr. Aakashdeep Kaur, PEC, India",
+"Dr. Komal Singh Gill, LPU, India",
+"Dr. Krishan Kumar Saluja, Panjab University, India",
+"Dr. Monika Sachdeva, I.K. Gujral Punjab Technical University – Mohali Campus I, India",
+"Dr. Neelam Chadda, NTPC, Nagpur, India",
+"Dr. Paramjit Singh, MRS PTU, India",
+"Mr. Harcharan Jit Singh, TIET, Patiala, India",
+"Mr. Aeiman Preet Singh, TIET, Patiala, India"
       ]
     },
     {
@@ -244,6 +246,12 @@
   "abstract":{
     "title": "Submission",
     "description": "We invite authors to submit abstracts (300 words) in PDF, DOC, or DOCX format.",
+          "description_bullets": [
+    "Best paper awards will be given in each track.",
+   "Selected papers will be submitted for inclusion in Scopus-indexed journals, subject to scope and quality review.",
+"Other accepted papers will be published in the conference proceedings.",
+"All submissions must have a plagiarism similarity index below 15%."
+  ],
     "buttons": {
       "Guidlines": {
         "title": "Submission Guidlines (CMT)",
@@ -259,7 +267,16 @@
       }
     }
   },
-  "Register":{
+    "":{
+    "title":"REGISTRATION GUIDELINES",
+    "description":"Delegates should register as per details given below.",
+      "description_bullets": [
+    "All the participants have to submit the registration fee through UPI or Netbanking, in order to attend/present paper in the conference. E-receipt can be downloaded from payment portal after successful payment process.",
+   "Once the payment has been done, the authors need to fill the registration form for their confirmation.",
+"Registration fee includes registration kit, and high tea during the conference sessions."
+  ]},
+
+  "register":{
     "title":"REGISTRATION GUIDELINES",
     "description":"Delegates should register as per details given below.",
       "description_bullets": [

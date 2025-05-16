@@ -47,7 +47,7 @@ const TextSec1 = ({ data }) => {
             </Typography>
 
             {data.buttons && Object.keys(data.buttons).length > 0 && (
-              <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent="flex-start">
+              <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent="center">
                 {Object.entries(data.buttons).map(([key, doc]) => (
                   <Button
                     key={key}

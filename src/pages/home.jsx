@@ -22,6 +22,21 @@ function Home() {
       <Navbar data={conferencedata.navLinks} />
       <HeroSection />
       <Bottombar/>
+<Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, my: 4 }}>
+  <Box
+    component="img"
+    src="/tiet.png"
+    alt="Image 1"
+    sx={{ width: 300, height:'auto', borderRadius: 2 }}
+  />
+  <Box
+    component="img"
+    src="/nitttr.jpeg"
+    alt="Image 2"
+    sx={{ width: 200, height: 'auto', borderRadius: 2 }}
+  />
+</Box>
+
       <Box id = "about">
         <TextSec1 data={conferencedata.about} />
       </Box>

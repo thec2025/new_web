@@ -79,6 +79,8 @@ const Bottombar = () => {
         Register Now
       </Button>
     </Box>
+
+  
   );
 };
 

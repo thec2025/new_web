@@ -20,8 +20,31 @@ function Abstract(){
                  variant="body1"
                 sx={{ textAlign: 'justify', fontSize: '1.2rem', lineHeight: 1.6, mb: 4 }}
                 >
-                    "Welcome to the abstract submission for the International Conference on <b>TRANSFORMING HIGHER EDUCATION FOR FUTURE: EDUCATION 4.0</b>.<br /><br />The Best Paper Award will be presented to the selected authors in recognition of their outstanding contribution, celebrated for excellence in research, originality, and impact at THEC 2025"
+                    Welcome to the abstract submission for the International Conference on <b>TRANSFORMING HIGHER EDUCATION FOR FUTURE: EDUCATION 4.0</b>.
                 </Typography>
+               <Typography
+                 variant="h4"
+                 component="h2"
+                 fontWeight="bold"
+                 gutterBottom
+                 color="primary.main"
+                 alignSelf={"center"}
+               >
+                 BEST PAPER AWARD</Typography>
+<Box component="ul" sx={{ pl: 3, mb: 4 }}>
+  {conferencedata.abstract.description_bullets.map((item, index) => (
+    <Typography
+      key={index}
+      component="li"
+      variant="body1"
+      sx={{ fontSize: "1.2rem", lineHeight: 1.8 }}
+    >
+      {item}
+    </Typography>
+  ))}
+</Box>
+
+
             </Container>
             </Box>
             <ConferenceTracks tracks = {conferencedata.tracks} />
