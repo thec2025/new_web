@@ -5,7 +5,7 @@ import ContactUs from "../components/contactUs";
 import { Box,Container,Grid,Typography } from "@mui/material";
 import ConferenceTracks from "../components/ConferenceTracks";
 import TextSec2 from "../components/textsec2";
-import TextSec1 from "../components/textsec2";
+import TextSec1 from "../components/textsec1";
 
 function Abstract(){
     return(
@@ -45,11 +45,56 @@ function Abstract(){
 
             </Container>
             </Box>
-            <Box component= "section" sx={{ py: { xs: 6, md: 10 } }}>
+            <Box component= "section" sx={{ py: { xs: 6} }}>
               <Container>
-                <TextSec1 data={conferencedata.Abst} />
+                               <Typography
+                 variant="h5"
+                 component="h2"
+                 fontWeight="bold"
+                 gutterBottom
+                 color="primary.main"
+                 alignSelf={"center"}
+               >
+                 Plagiarism and Publication Ethics Guidelines
+</Typography>
+                   <Typography sx={{ fontSize: "1.2rem", lineHeight: 1.8 }}
+                          >
+                                     {conferencedata.Abst.description} 
+                          </Typography>
+       
                 <Box component="ul">
                         {conferencedata.Abst.description_bullets.map((item, index) => (
+                          <Typography
+                            key={index}
+                            component="li"
+                            variant="body1"
+                            sx={{ fontSize: "1.2rem", lineHeight: 1.8 }}
+                          >
+                            {item}
+                          </Typography>
+                        ))}
+                      
+                  </Box>
+                </Container>
+              </Box>
+                          <Box component= "section" sx={{ py: { xs: 6} }}>
+              <Container>
+                               <Typography
+                 variant="h5"
+                 component="h2"
+                 fontWeight="bold"
+                 gutterBottom
+                 color="primary.main"
+                 alignSelf={"center"}
+               >
+                 Paper Submission Guidelines
+
+
+</Typography>
+ 
+       
+                <Box component="ul">
+                        {conferencedata.Abst.description_bullets2.map((item, index) => (
                           <Typography
                             key={index}
                             component="li"
@@ -66,6 +111,7 @@ function Abstract(){
             <ConferenceTracks tracks = {conferencedata.tracks} />
             <TextSec1 data={conferencedata.abstract} />
             <ContactUs data={conferencedata.footer}/>
+            
         </>
     )
 }
