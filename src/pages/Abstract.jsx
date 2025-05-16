@@ -5,7 +5,7 @@ import ContactUs from "../components/contactUs";
 import { Box,Container,Grid,Typography } from "@mui/material";
 import ConferenceTracks from "../components/ConferenceTracks";
 import TextSec2 from "../components/textsec2";
-import TextSec1 from "../components/textsec2";
+import TextSec1 from "../components/textsec1";
 
 function Abstract(){
     return(
