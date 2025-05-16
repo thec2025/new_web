@@ -61,7 +61,7 @@ export const thaparLearnFellows = [
   },
   {
     name: "Dr. Amanpreet Kaur",
-    title: "Assistant Professor",
+    title: "Associate Professor",
     department: "ECED, TIET Patiala",
     image: "/images/Dr. Amanpreet.jpg"
   },
