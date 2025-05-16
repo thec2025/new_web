@@ -126,12 +126,7 @@ export const uqFellows = [
       department : "University of Delhi",
       image: "/images/navneet_chpra.jpg"
     },
-    {
-      name : "Prof. Bhola Ram Gurjar ",
-      title : "Director",
-      department : "NITTTR, Chandigarh",
-      image: "/images/dixit.jpg"
-    },{
+,{
       name : "Dr. Rajesh Kumar Dixit",
       title : "Professor",
       department : " NITTR, Bhopal",

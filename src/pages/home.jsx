@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from '../components/navbar';
 import TextSec1 from '../components/textsec1';
 import TextSec2 from '../components/textsec2';
+import TextSec3 from '../components/textsec3';
 import conferencedata from "../data/conferenceData.json";
 import DatesTable from '../components/dates_table';
 import CommitteeSection from '../components/CommitteeSection';
@@ -22,25 +23,29 @@ function Home() {
       <Navbar data={conferencedata.navLinks} />
       <HeroSection />
       <Bottombar/>
-<Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, my: 4 }}>
-  <Box
-    component="img"
-    src="/tiet.png"
-    alt="Image 1"
-    sx={{ width: 300, height:'auto', borderRadius: 2 }}
-  />
-  <Box
-    component="img"
-    src="/nitttr.jpeg"
-    alt="Image 2"
-    sx={{ width: 200, height: 'auto', borderRadius: 2 }}
-  />
-</Box>
+<Box sx={{ width: '100%'}}>
+  <Box sx={{ display: 'flex', justifyContent: 'flex-end', gap: 2, my: 4 ,pr:4,mb:0 }}>
+    <Box
+      component="img"
+      src="/tiet.png"
+      alt="Image 1"
+      sx={{ width: 120, height: 'auto', borderRadius: 2 }}
 
+    />
+    <Box
+      component="img"
+      src="/nitttr.jpeg"
+      alt="Image 2"
+      sx={{ width: 100, height: 'auto', borderRadius: 2 }}
+    />
+  </Box>
+</Box>
       <Box id = "about">
         <TextSec1 data={conferencedata.about} />
+
       </Box>
       <TextSec2 data={conferencedata.tiet} />
+      <TextSec3 data={conferencedata.nitttr} />
       <DatesTable data={conferencedata.importantDates} />
       <ConferenceTracks tracks={conferencedata.tracks} />
       <Box sx={{py:4}}>
@@ -75,7 +80,7 @@ function Home() {
             Organizing Committee
           </Typography>
           <CommitteeSection 
-            title="NITTR"
+          
             members={nit}
           />
           <CommitteeSection 
