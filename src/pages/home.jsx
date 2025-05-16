@@ -6,7 +6,7 @@ import conferencedata from "../data/conferenceData.json";
 import DatesTable from '../components/dates_table';
 import CommitteeSection from '../components/CommitteeSection';
 import Committees from '../components/committes';
-import { thaparLearnFellows, uqFellows,goh,gs,convener,os } from '../data/committeeData';
+import { thaparLearnFellows, uqFellows,goh,gs,convener,os,nit } from '../data/committeeData';
 import HeroSection from '../components/Landing';
 import { Box, Container, Typography } from '@mui/material';
 import ConferenceTracks from '../components/ConferenceTracks';
@@ -59,6 +59,10 @@ function Home() {
           <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>
             Organizing Committee
           </Typography>
+          <CommitteeSection 
+            title="NITTR"
+            members={nit}
+          />
           <CommitteeSection 
             title="Thapar Learn Fellows (TLFs)"
             members={thaparLearnFellows}
