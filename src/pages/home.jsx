@@ -73,7 +73,7 @@ function Home() {
             members={convener}
           />
           <CommitteeSection 
-            title="Organizing secretary"
+            title="Organizing Secretary"
             members={os}
           />
           <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>

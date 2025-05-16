@@ -163,7 +163,7 @@ export const uqFellows = [
       image: "/images/drnij.JPG"
     },
     {
-      name : "Dr MEENAKSHI SOOD",
+      name : "Dr Meenakshi Sood",
       title : "Associate Dean Outreach",
       department : "NITTTR CHANDIGARH",
       image: "/images/drms.jpg"
@@ -178,35 +178,35 @@ export const uqFellows = [
 
   export const nit = [
     {
-      name : "Prof. Maitreyee Dutta",
+      name : "Dr. Maitreyee Dutta",
       title: "Professor,"
 ,
       department : "Head IMEE, NITTTR",
       image: "images/md.jpg"
     },
     {
-    name: "Prof. Sandeep Singh Gill",
+    name: "Dr. Sandeep Singh Gill",
     title: "Professor",
     department: "Head, Talent Acquisition, NITTTR",
     additionalRoles: "Head, Talent Acquisition and Skill Development Centre",
     image: "images/gill.jpg" 
   },
   {
-    name: "Prof.(Dr.) C. Rama Krishna",
+    name: "Dr. C. Rama Krishna",
     title: "Dean",
     department: "Administration & Finance, NITTTR",
     image: "images/crk.jpg" 
   },
   {
-    name: "Prof.(Dr.) Rupinder Singh",
+    name: "Dr. Rupinder Singh",
     title: "Dean",
-    department: "Research and Innovation",
+    department: "Research and Innovation, NITTR",
     image: "images/rup.jpg" 
   },
   {
-    name: "Prof.(Dr.) A B Gupta",
-    title: "Head",
-    department: "EMGT",
+    name: "Dr. A B Gupta",
+    title: "Head.EMGT",
+    department: "NITTTR",
     image: "images/ab.jpg" 
   }
   ];
