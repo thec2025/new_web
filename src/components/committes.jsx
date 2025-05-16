@@ -3,20 +3,22 @@ import {
   Box,
   Container,
   Grid,
-  Card,
-  CardContent,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
   Typography,
   List,
   ListItem,
   ListItemText,
 } from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 function Committees({ data }) {
-  if (!data) return null;
+  if (!data || data.length < 3) return null;
 
   const renderMemberText = (text) => {
     const parts = text.split(",");
-    const boldPart = parts.slice(0, 1).join(","); // Name + Designation
+    const boldPart = parts[0];
     const rest = parts.slice(1).join(",");
     return (
       <Typography variant="body2">
@@ -28,36 +30,40 @@ function Committees({ data }) {
 
   return (
     <Box sx={{ py: 5, backgroundColor: "#f9f9f9" }}>
-      <Container>
-        <Grid container spacing={12} justifyContent="center">
-          {/* First two cards side-by-side */}
-          {data.slice(0, 2).map((committee, index) => (
+      <Container maxWidth="xl">
+        <Grid container spacing={3} justifyContent="center" alignItems="flex-start">
+          {data.slice(0, 3).map((committee, index) => (
             <Grid
               item
-              xs={12}  // Full width on mobile
-              sm={6}   // 50% width on small screens and up
+              maxWidth={400}
+              xs={12}
+              sm={6}
+              md={4}
               key={index}
               sx={{
                 display: "flex",
-                justifyContent: "center", // Center align the card inside grid item
+                justifyContent: "stretch",
+                mr: index < 2 ? 2 : 0,  // margin-right for first two only
               }}
             >
-              <Card
+              <Accordion
                 sx={{
+                  flexGrow: 1,
                   width: "100%",
-                  maxWidth: 500,
                   backgroundColor: "#e0e0e0",
                   boxShadow: 3,
                 }}
               >
-                <CardContent>
-                  <Typography
-                    variant="h5"
-                    sx={{ textAlign: "center", fontWeight: "bold" }}
-                    gutterBottom
-                  >
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls={`panel${index}-content`}
+                  id={`panel${index}-header`}
+                >
+                  <Typography variant="h6" fontWeight="bold">
                     {committee.title}
                   </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
                   <Typography
                     variant="body2"
                     paragraph
@@ -75,96 +81,29 @@ function Committees({ data }) {
                       ))}
                     </List>
                   ) : (
-                    <div>
-                      {committee.members &&
-                        Object.values(committee.members).map((group, idx) => (
-                          <div key={idx}>
-                            <Typography variant="subtitle2" fontWeight="bold">
-                              {group.role}:
-                            </Typography>
-                            <List dense sx={{ mb: 2 }}>
-                              {group.members.map((member, mIdx) => (
-                                <ListItem key={mIdx} disableGutters>
-                                  <ListItemText primary={renderMemberText(member)} />
-                                </ListItem>
-                              ))}
-                            </List>
-                          </div>
-                        ))}
-                    </div>
+                    Object.values(committee.members).map((group, idx) => (
+                      <div key={idx}>
+                        <Typography
+                          variant="subtitle2"
+                          fontWeight="bold"
+                          gutterBottom
+                        >
+                          {group.role}:
+                        </Typography>
+                        <List dense sx={{ mb: 2 }}>
+                          {group.members.map((member, mIdx) => (
+                            <ListItem key={mIdx} disableGutters>
+                              <ListItemText primary={renderMemberText(member)} />
+                            </ListItem>
+                          ))}
+                        </List>
+                      </div>
+                    ))
                   )}
-                </CardContent>
-              </Card>
+                </AccordionDetails>
+              </Accordion>
             </Grid>
           ))}
-
-          {/* Third card below the first one */}
-          {data.length > 2 && (
-            <Grid
-              item
-              xs={12}  // Full width on mobile
-              sm={6}   // 50% width on small screens and up
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                marginTop: "40px", // Add margin-top to increase the space between Card 1 and Card 3
-              }}
-            >
-              <Card
-                sx={{
-                  width: "100%",
-                  maxWidth: 500,
-                  backgroundColor: "#e0e0e0",
-                  boxShadow: 3,
-                }}
-              >
-                <CardContent>
-                  <Typography
-                    variant="h5"
-                    sx={{ textAlign: "center", fontWeight: "bold" }}
-                    gutterBottom
-                  >
-                    {data[2].title}
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    paragraph
-                    color="text.secondary"
-                    sx={{ wordWrap: "break-word" }}
-                  >
-                    {data[2].description}
-                  </Typography>
-                  {Array.isArray(data[2].members) ? (
-                    <List dense sx={{ mb: 2 }}>
-                      {data[2].members.map((member, idx) => (
-                        <ListItem key={idx} disableGutters>
-                          <ListItemText primary={renderMemberText(member)} />
-                        </ListItem>
-                      ))}
-                    </List>
-                  ) : (
-                    <div>
-                      {data[2].members &&
-                        Object.values(data[2].members).map((group, idx) => (
-                          <div key={idx}>
-                            <Typography variant="subtitle2" fontWeight="bold">
-                              {group.role}:
-                            </Typography>
-                            <List dense sx={{ mb: 2 }}>
-                              {group.members.map((member, mIdx) => (
-                                <ListItem key={mIdx} disableGutters>
-                                  <ListItemText primary={renderMemberText(member)} />
-                                </ListItem>
-                              ))}
-                            </List>
-                          </div>
-                        ))}
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
-            </Grid>
-          )}
         </Grid>
       </Container>
     </Box>
