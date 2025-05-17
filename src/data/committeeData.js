@@ -144,7 +144,7 @@ export const uqFellows = [
     {
       name : "Dr. Amanpreet Kaur",
       title : "Associate Professor",
-      department : "ECED., TIET Patiala",
+      department : "ECED, TIET Patiala",
       image: "/images/Dr. Amanpreet.jpg"
     }
   ];
