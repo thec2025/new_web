@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/navbar";
+import BulletSection from "../components/bullet_text";
 import conferencedata from "../data/conferenceData.json";
 import ContactUs from "../components/contactUs";
 import { Box,Container,Grid,Typography } from "@mui/material";
@@ -109,7 +110,9 @@ function Abstract(){
                 </Container>
               </Box>
             <ConferenceTracks tracks = {conferencedata.tracks} />
+            <BulletSection data={conferencedata.journals} />
             <TextSec1 data={conferencedata.abstract} />
+
             <ContactUs data={conferencedata.footer}/>
             
         </>
