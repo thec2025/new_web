@@ -34,7 +34,7 @@
       {"event": "Early Bird Registration", "date": "15 July 2025" },
       {"event": "Abstract Submission", "date": "15 June 2025" },
       {"event": "Acceptance of Abstract", "date": "30 June 2025" },
-      {"event": "Fee Submission", "date": "15 July 2025" },
+      {"event": "Fee Submission", "date": "30 July 2025" },
       {"event": "Full Paper Submission", "date": "15 August 2025" },
       {"event": "Full Paper Acceptance", "date": "30 August 2025" }
     
@@ -293,7 +293,7 @@
 "All submissions must be made online via the Microsoft CMT submission portal.",
 "Each submission will undergo a rigorous peer-review process, evaluating originality, relevance, technical quality, and clarity.",
 "If any copyrighted material is used, prior permission from the copyright holder must be obtained.",
-"Only papers presenting original content, including novel research findings or innovative, practical applications, will be selected for publication as indexed journals ."
+"Only papers presenting original content, including novel research findings or innovative, practical applications, will be selected for publication in indexed journals ."
     ]
   },
 
@@ -348,6 +348,14 @@
     "title":"GLIMPSES OF FIRST CONFERENCE OBE'23",
     "images":["/DSC_9152","/DSC_9197","/DSC_9200","/DSC_9204","/DSC_9222"]
   
+  },
+  "journals":{
+    
+    "title": "List of Journals",
+    "description_bullets":[
+"Journal of Engineering & Technology Education (ISSN 2229 – 631X), bi-annual interdisciplinary Journal"
+    ]
+
   }
 
 }

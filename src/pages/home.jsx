@@ -15,6 +15,7 @@ import Bottombar from '../components/bottomblack';
 import Slideshow from '../components/glimpses'; 
 import ContactUs from '../components/contactUs';
 import Chief from '../components/pcp';
+import BulletSection from '../components/bullet_text';
 
 function Home() {
 
@@ -48,6 +49,7 @@ function Home() {
       <TextSec3 data={conferencedata.nitttr} />
       <DatesTable data={conferencedata.importantDates} />
       <ConferenceTracks tracks={conferencedata.tracks} />
+      <BulletSection data={conferencedata.journals} />
       <Box sx={{py:4}}>
         <Container maxWidth = "lg">
         <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>

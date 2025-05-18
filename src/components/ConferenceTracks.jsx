@@ -88,7 +88,7 @@ const ConferenceTracks = ({ tracks }) => {
         ))}
       </TracksContainer>
       
-      <Typography variant="body1" align="left" sx={{ mt: 3 }}>
+      <Typography variant="body1" align="left" sx={{ mt: 3, fontWeight: 1000, fontSize: '1.2rem' }}>
         Selected papers will be published in Conference Proceedings / Indexed Journals.
       </Typography>
       <br />

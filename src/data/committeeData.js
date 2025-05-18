@@ -170,7 +170,7 @@ export const uqFellows = [
     },
     {
       name : "Dr. Alka Pandita",
-      title : "Assistant Profesor",
+      title : "Assistant Professor",
       department : "TIET Patiala",
       image: "/images/alka.png"
     }
