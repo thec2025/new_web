@@ -333,8 +333,8 @@
     "headers": ["CATEGORY", "FEE"],
     "events": [
       {"event": "Faculty Delegate", "date": "Rs 6000 + GST" },
-      {"event": "TIET Research Scholars", "date": "Rs 1000 + GST" },
-      {"event": "Other Research Scholars", "date": "Rs 1500 + GST" },
+      {"event": "TIET Research Scholars (UG/P.G./Ph.D.)", "date": "Rs 1000 + GST" },
+      {"event": "Other Research Scholars (UG/P.G./Ph.D.)", "date": "Rs 1500 + GST" },
       {"event": "Industry", "date": "Rs 8000 + GST" },
       {"event": "Listeners", "date": "Rs 1000 +GST" },
       {"event": "Foreign Delegates", "date": "300 USD" },

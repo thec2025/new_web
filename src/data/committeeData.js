@@ -126,7 +126,7 @@ export const uqFellows = [
       department : "University of Delhi",
       image: "/images/navneet_chpra.jpg"
     },
-,{
+{
       name : "Prof. Rajesh Kumar Dixit",
       title : "Professor",
       department : " NITTTR, Bhopal",
@@ -152,7 +152,7 @@ export const uqFellows = [
   export const os = [
         {
       name : "Prof. Meenakshi Sood",
-      title : "Associate Dean Outreach",
+      title : "Associate Dean Outreach and Resource Generation",
       department : "NITTTR Chandigarh",
       image: "/images/drms.jpg"
     },
