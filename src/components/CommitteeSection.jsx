@@ -27,8 +27,13 @@ const CommitteeSection = ({ title, members }) => {
       </SectionTitle>
       <MembersContainer>
         {members.map((member, index) => (
-          <CommitteeMemberCard key={index} member={member} />
-        ))}
+          <CommitteeMemberCard
+              key={index}
+              member={member}
+              forceTwoPerRow={members.length === 4}
+            />
+          ))}
+
       </MembersContainer>
     </SectionContainer>
   );

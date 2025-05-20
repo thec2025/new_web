@@ -2,6 +2,8 @@ import React from 'react';
 import { Box, Typography, Accordion, AccordionSummary, AccordionDetails, List, ListItem, Container } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { styled } from '@mui/material/styles';
+import BulletSection from './bullet_text'
+import conferencedata from '../data/conferenceData.json'
 
 const TracksContainer = styled(Box)(({ theme }) => ({
   display: 'flex',
@@ -49,14 +51,18 @@ const ConferenceTracks = ({ tracks }) => {
   return (
   <Container component="section">
     <Box id="Conference_Tracks">
+
+      <Typography variant="body1" align="left" sx={{ mt: 3, fontWeight: 1000, fontSize: '1.2rem', color: '#FFA500'}}>
+        Selected papers will be published in Conference Proceedings / Indexed Journals.
+      </Typography>
+      <BulletSection data={conferencedata.journals} />
       <Typography variant="h4" component="h2" align="left" gutterBottom>
         CONFERENCE TRACKS
-      </Typography>
-      <br />
+      </Typography>      
       <Typography variant="body1" paragraph align="left">
         This conference invites original research papers on diverse topics as mentioned below-
       </Typography>
-      
+
       <TracksContainer>
         {tracks.map((column, columnIndex) => (
           <TrackColumn key={columnIndex}>
@@ -88,9 +94,7 @@ const ConferenceTracks = ({ tracks }) => {
         ))}
       </TracksContainer>
       
-      <Typography variant="body1" align="left" sx={{ mt: 3, fontWeight: 1000, fontSize: '1.2rem', color: '#FFA500'}}>
-        Selected papers will be published in Conference Proceedings / Indexed Journals.
-      </Typography>
+      
       <br />
     </Box>
   </Container>

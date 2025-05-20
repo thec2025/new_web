@@ -9,13 +9,13 @@ import CommitteeSection from '../components/CommitteeSection';
 import Committees from '../components/committes';
 import { thaparLearnFellows, uqFellows,goh,gs,convener,os,nit } from '../data/committeeData';
 import HeroSection from '../components/Landing';
-import { Box, Container, Typography } from '@mui/material';
+import { Box, Container, Typography, Button } from '@mui/material';
 import ConferenceTracks from '../components/ConferenceTracks';
 import Bottombar from '../components/bottomblack';
 import Slideshow from '../components/glimpses'; 
 import ContactUs from '../components/contactUs';
 import Chief from '../components/pcp';
-import BulletSection from '../components/bullet_text';
+
 
 function Home() {
 
@@ -49,7 +49,15 @@ function Home() {
       <TextSec3 data={conferencedata.nitttr} />
       <DatesTable data={conferencedata.importantDates} />
       <ConferenceTracks tracks={conferencedata.tracks} />
-      <BulletSection data={conferencedata.journals} />
+
+    <Box sx={{ background: '#ffffff' }}>
+            <br/>
+            <Container>
+      <Typography> Abstract/Paper Submission link <a href="/abstract">Click Here</a> </Typography>
+
+            </Container>
+            </Box>
+      
       <Box sx={{py:4}}>
         <Container maxWidth = "lg">
         <Typography variant="h4" component="h2" align="center" gutterBottom sx={{ mb: 4 }}>

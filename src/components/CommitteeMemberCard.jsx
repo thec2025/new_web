@@ -2,10 +2,12 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-const CardContainer = styled(Box)(({ theme }) => ({
+const CardContainer = styled(Box, {
+  shouldForwardProp: (prop) => prop !== 'forceTwoPerRow',
+})(({ theme, forceTwoPerRow }) => ({
   display: 'flex',
   alignItems: 'center',
-  width: 'calc(33.33% - 20px)',
+  width: forceTwoPerRow ? 'calc(50% - 20px)' : 'calc(33.33% - 20px)',
   boxSizing: 'border-box',
   position: 'relative',
   marginBottom: '30px',
@@ -16,6 +18,7 @@ const CardContainer = styled(Box)(({ theme }) => ({
     width: '100%',
   }
 }));
+
 
 const ImageWrapper = styled(Box)(({ theme }) => ({
   width: '15vmin',
@@ -58,22 +61,32 @@ const InfoWrapper = styled(Box)({
   marginLeft: '-50px'
 });
 
-const CommitteeMemberCard = ({ member }) => {
+const MembersContainer = styled(Box)({
+  display: 'flex',
+  flexWrap: 'wrap',
+  gap: '30px',
+  justifyContent: 'flex-start',
+});
+
+
+const CommitteeMemberCard = ({ member, forceTwoPerRow }) => {
   return (
-    <CardContainer>
+    <CardContainer forceTwoPerRow={forceTwoPerRow}>
       <ImageWrapper>
-        <MemberImage
-          src={member.image}
-          alt={member.name}
-        />
+        <MemberImage src={member.image} alt={member.name} />
       </ImageWrapper>
       <InfoWrapper>
         <Typography variant="body1" component="p">
-          <strong>{member.name}<br/>{member.title},<br /> {member.department}</strong>
+          <strong>
+            {member.name}
+            <br />
+            {member.title},<br /> {member.department}
+          </strong>
         </Typography>
       </InfoWrapper>
     </CardContainer>
   );
 };
+
 
 export default CommitteeMemberCard; 
