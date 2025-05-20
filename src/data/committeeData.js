@@ -164,7 +164,7 @@ export const uqFellows = [
     },
     {
       name : "Dr. Meenakshi Sood",
-      title : "Associate Dean Outreach",
+      title : "Associate Dean Outreach and Resource Generation",
       department : "NITTTR Chandigarh",
       image: "/images/drms.jpg"
     },
@@ -179,8 +179,7 @@ export const uqFellows = [
   export const nit = [
     {
       name : "Dr. Maitreyee Dutta",
-      title: "Professor,"
-,
+      title: "Professor",
       department : "Head IMEE, NITTTR Chandigarh",
       image: "images/md.jpg"
     },
