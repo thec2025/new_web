@@ -144,7 +144,7 @@ export const uqFellows = [
     {
       name : "Dr. Amanpreet Kaur",
       title : "Associate Professor",
-      department : "EIED., TIET Patiala",
+      department : "ECED, TIET Patiala",
       image: "/images/Dr. Amanpreet.jpg"
     }
   ];
@@ -170,7 +170,7 @@ export const uqFellows = [
     },
     {
       name : "Dr. Alka Pandita",
-      title : "Assistant Profesor",
+      title : "Assistant Professor",
       department : "TIET Patiala",
       image: "/images/alka.png"
     }
