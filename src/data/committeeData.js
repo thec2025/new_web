@@ -150,6 +150,12 @@ export const uqFellows = [
   ];
 
   export const os = [
+        {
+      name : "Prof. Meenakshi Sood",
+      title : "Associate Dean Outreach",
+      department : "NITTTR Chandigarh",
+      image: "/images/drms.jpg"
+    },
     {
       name : "Dr. Gurvinder Kaur",
       title : "Associate Dean of Outreach",
@@ -162,12 +168,7 @@ export const uqFellows = [
       department : "TIET Patiala",
       image: "/images/drnij.JPG"
     },
-    {
-      name : "Prof. Meenakshi Sood",
-      title : "Associate Dean Outreach",
-      department : "NITTTR Chandigarh",
-      image: "/images/drms.jpg"
-    },
+
     {
       name : "Dr. Alka Pandita",
       title : "Assistant Professor",
