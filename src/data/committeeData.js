@@ -121,16 +121,16 @@ export const uqFellows = [
 
   export const gs = [
     {
-      name : "Prof. Hadas Mamane",
-      title : "Professor",
-      department : "Tel Aviv University, Israel",
-      image: "/images/phm.jpg"
-    },
-    {
       name : "Prof. Rajesh Kumar Dixit",
       title : "Professor",
       department : " NITTTR, Bhopal",
       image: "/images/gurjar1.jpg"
+    },
+    {
+      name : "Prof. Hadas Mamane",
+      title : "Professor",
+      department : "Tel Aviv University, Israel",
+      image: "/images/phm.jpg"
     },
     {
       name : "Prof. Aard Groen",
