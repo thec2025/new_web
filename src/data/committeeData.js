@@ -131,6 +131,18 @@ export const uqFellows = [
       title : "Professor",
       department : " NITTTR, Bhopal",
       image: "/images/gurjar1.jpg"
+    },
+    {
+      name : "Prof. Aard Groen",
+      title : "Chair Professor",
+      department : "University of Groningen, Netherlands",
+      image: "/images/pag.jpg"
+    },
+    {
+      name : "Prof. Hadas Mamane",
+      title : "Professor",
+      department : "Tel Aviv University, Israel",
+      image: "/images/phm.jpg"
     }
   ];
 
