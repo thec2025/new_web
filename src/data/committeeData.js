@@ -121,12 +121,12 @@ export const uqFellows = [
 
   export const gs = [
     {
-      name : "Dr. Navneet Chopra",
-      title : "Assistant Professor",
-      department : "University of Delhi",
-      image: "/images/navneet_chpra.jpg"
+      name : "Prof. Hadas Mamane",
+      title : "Professor",
+      department : "Tel Aviv University, Israel",
+      image: "/images/phm.jpg"
     },
-{
+    {
       name : "Prof. Rajesh Kumar Dixit",
       title : "Professor",
       department : " NITTTR, Bhopal",
@@ -139,10 +139,10 @@ export const uqFellows = [
       image: "/images/pag.jpg"
     },
     {
-      name : "Prof. Hadas Mamane",
-      title : "Professor",
-      department : "Tel Aviv University, Israel",
-      image: "/images/phm.jpg"
+      name : "Dr. Navneet Chopra",
+      title : "Assistant Professor",
+      department : "University of Delhi",
+      image: "/images/navneet_chpra.jpg"
     }
   ];
 
