@@ -234,12 +234,12 @@
 
 
     [
-  { "label": "Home", "path": "/" },
+  { "label": "Home", "path": "/#home" },
   { "label": "About Conference", "path": "/#about" },
   { "label": "Conference Tracks", "path": "/#Conference_Tracks" },
   { "label": "Our Team", "path": "/#Organizers" },
-  { "label": "Schedule", "path": "/" },
   { "label": "Abstract/Submissions", "path": "/abstract" },
+  { "label": "Schedule", "path": "/" },
   { "label": "Contact Us", "path": "/#contact" }
 
 ]

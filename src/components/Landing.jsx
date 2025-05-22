@@ -5,6 +5,8 @@ import heroImage from "../data/home.webp"
 export default function HeroSection() {
   return (
     <Box
+      component="section"
+      id='home'
       sx={{
         width: "100%",
         height: { xs: '60vh',sm: "75vh", md: '100vh' },
