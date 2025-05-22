@@ -198,20 +198,19 @@ export const uqFellows = [
     },
     {
       name : "Prof. Maitreyee Dutta",
-      title: "Head IMEE,",
+      title: "Head IMEE",
       department : "NITTTR Chandigarh",
       image: "images/md.jpg"
     },
     {
     name: "Prof. Sandeep Singh Gill",
-    title: "Head, TASDC,",
+    title: "Head, TASDC",
     department: "NITTTR Chandigarh",
-    additionalRoles: "Head, Talent Acquisition and Skill Development Centre",
     image: "images/gill.jpg" 
   },
   {
     name: "Prof. Rupinder Singh",
-    title: "Dean, Research and Innovation,",
+    title: "Dean, Research and Innovation",
     department: "NITTTR Chandigarh",
     image: "images/rup.jpg" 
   }
