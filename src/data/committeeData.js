@@ -162,8 +162,8 @@ export const uqFellows = [
   ];
 
   export const os = [
-        {
-      name : "Prof. Meenakshi Sood",
+      {
+      name : "Asso. Prof. Meenakshi Sood",
       title : "Associate Dean Outreach and Resource Generation",
       department : "NITTTR Chandigarh",
       image: "/images/drms.jpg"
