@@ -139,7 +139,7 @@ export const uqFellows = [
       image: "/images/pag.jpg"
     },
     {
-      name : "Dr. Navneet Chopra",
+      name : "Prof. Navneet Chopra",
       title : "Assistant Professor",
       department : "University of Delhi",
       image: "/images/navneet_chpra.jpg"

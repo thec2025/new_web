@@ -39,12 +39,26 @@ function DatesTable({ data }) {
             </TableHead>
 
             <TableBody>
-              {data.events.map((row, index) => (
-                <TableRow key={index}>
-                  <TableCell component="th" scope="row">{row.event}</TableCell>
-                  <TableCell align="right">{row.date}</TableCell>
-                </TableRow>
-              ))}
+{data.events.map((row, index) => (
+  <TableRow key={index}>
+    <TableCell component="th" scope="row">{row.event}</TableCell>
+    <TableCell align="right">
+      {row.event === "Abstract Submission" ? (
+        <Box>
+          <Typography variant="body2" sx={{ textDecoration: 'line-through', color: 'red' }}>
+            {row.date}
+          </Typography>
+          <Typography variant="body2" color="text.primary">
+            30 June 2025
+          </Typography>
+        </Box>
+      ) : (
+        row.date
+      )}
+    </TableCell>
+  </TableRow>
+))}
+
             </TableBody>
           </Table>
         </TableContainer>
