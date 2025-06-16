@@ -134,8 +134,8 @@ export const uqFellows = [
     },
     {
       name : "Prof. Aard Groen",
-      title : "Chair Professor",
-      department : "University of Groningen, Netherlands",
+      title : "University of Groningen",
+      department : "Netherlands",
       image: "/images/pag.jpg"
     },
     {

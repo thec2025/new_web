@@ -6,6 +6,8 @@ const CardContainer = styled(Box, {
   shouldForwardProp: (prop) => prop !== 'forceTwoPerRow',
 })(({ theme, forceTwoPerRow }) => ({
   display: 'flex',
+  minWidth: 0,
+
   alignItems: 'center',
   width: forceTwoPerRow ? 'calc(50% - 20px)' : 'calc(33.33% - 20px)',
   boxSizing: 'border-box',
@@ -56,9 +58,14 @@ const InfoWrapper = styled(Box)({
   padding: '15px 20px 15px 35px',
   boxShadow: '0 2px 6px rgba(0, 0, 0, 0.05)',
   zIndex: 1,
-  flex: 1,
+  flexGrow: 1,
+  flexShrink: 1,
   textAlign: 'right',
-  marginLeft: '-50px'
+  marginLeft: '-50px',
+  whiteSpace: 'normal',
+  wordBreak: 'break-word',
+  overflowWrap: 'anywhere',
+  minWidth: 0,
 });
 
 const MembersContainer = styled(Box)({
@@ -76,7 +83,7 @@ const CommitteeMemberCard = ({ member, forceTwoPerRow }) => {
         <MemberImage src={member.image} alt={member.name} />
       </ImageWrapper>
       <InfoWrapper>
-        <Typography variant="body1" component="p">
+        <Typography variant="body1" component="p" >
           <strong>
             {member.name}
             <br />
