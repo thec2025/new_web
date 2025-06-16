@@ -173,50 +173,48 @@
     {
       "title": "Advisory Committee",
       "members": [
-"Prof. Bhola Ram Gurjar, Director,National Institute of Technical Teachers Training & Research, Chandigarh, India",
-"Prof. C. Rama Krishna , Dean (Administration & Finance), National Institute of Technical Teachers Training & Research, Chandigarh, India",
-"Prof. Nir Ohad, Chair Professor, Tel Aviv University, Israel",
-"Prof. Tim Miller, Chair Professor, University of Queensland, Australia",
-"Prof. Noam Eliaz, Chair Professor, Tel Aviv University, Israel",
-"Prof. Rooplal Mahajan, Chair Professor, Virginia Tech, Virginia, USA",
-"Prof. Sanjeev Bedi, Chair Professor, University of Waterloo, Canada",
-"Prof. Aard Groen, Chair Professor, University of Groningen, Netherlands",
-"Prof. Roger West, Emeritus Professor, Civil Engineering, Thapar Institute of Engineering and Technology, India",
-"Prof. Mike Wride, Associate Professor, University of Limerick, Ireland",
-"Prof. Ram Fishman, Professor, Tel Aviv University, Israel",
-"Prof. Guru Ghosh, Professor, Virginia Tech, Virginia, USA",
-"Prof. Hadas Mamane, Professor, Tel Aviv University, Israel",
-"Prof. Gurdip Singh, Professor, George Mason University, Virginia, USA",
-"Prof. Hans van Ees, Honorary Dean, Thapar School of Liberal Arts, and Professor, University of Groningen, Netherlands"
-
-
+        "Prof. Bhola Ram Gurjar, Director,National Institute of Technical Teachers Training & Research, Chandigarh, India",
+        "Prof. C. Rama Krishna , Dean (Administration & Finance), National Institute of Technical Teachers Training & Research, Chandigarh, India",
+        "Prof. Nir Ohad, Chair Professor, Tel Aviv University, Israel",
+        "Prof. Tim Miller, Chair Professor, University of Queensland, Australia",
+        "Prof. Noam Eliaz, Chair Professor, Tel Aviv University, Israel",
+        "Prof. Rooplal Mahajan, Chair Professor, Virginia Tech, Virginia, USA",
+        "Prof. Sanjeev Bedi, Chair Professor, University of Waterloo, Canada",
+        "Prof. Aard Groen, Chair Professor, University of Groningen, Netherlands",
+        "Prof. Roger West, Emeritus Professor, Civil Engineering, Thapar Institute of Engineering and Technology, India",
+        "Prof. Mike Wride, Associate Professor, University of Limerick, Ireland",
+        "Prof. Ram Fishman, Professor, Tel Aviv University, Israel",
+        "Prof. Guru Ghosh, Professor, Virginia Tech, Virginia, USA",
+        "Prof. Hadas Mamane, Professor, Tel Aviv University, Israel",
+        "Prof. Gurdip Singh, Professor, George Mason University, Virginia, USA",
+        "Prof. Hans van Ees, Honorary Dean, Thapar School of Liberal Arts, and Professor, University of Groningen, Netherlands"
       ]
     },
     {
       "title": "Technical Program Committee",
       "members": [
-"Dr. Dwarika Nath Ratha, TIET, Patiala, India",
-"Dr. Surinder Sharma, Himachal Pradesh University",
-"Dr Ritika Sharma, Himachal Pradesh University",
-"Prof. B.L. Gupta, NITTTR, Bhopal",
-"Prof. Ranjit Singh Chauhan, NITTTR, Bhopal",
-"Prof. P. K. Tulsi, NITTTR, Chandigarh.",
-"Prof. Urmila Kar, NITTTR, Kolkata",
-"Prof. S.K. Naskar, NITTTR, Kolkata",
-"Dr. P S Grover, (Retd.) Ex Director– Delhi University",
-"Prof. Pankaj Sharma, NITTTR, Chandigarh",
-"Prof. Ritula Thakur, NITTTR, Chandigarh",
-"Prof. Balwinder Singh Dhaliwal, NITTTR Chandigarh",
-"Prof. Amandeep Kaur, NITTTR, Chandigarh",
-"Dr. Himanshu Jindal, Amity University, India",
-"Dr. Monika Bharti, Amity University, India",
-"Dr. Deepak Mehta, Jain University, India",
-"Dr. Aakashdeep Kaur, PEC, India",
-"Dr. Komal Singh Gill, LPU, India",
-"Dr. Krishan Kumar Saluja, Panjab University, India",
-"Dr. Monika Sachdeva, I.K. Gujral Punjab Technical University, Mohali, India",
-"Dr. Neelam Chadda, NTPC, Nagpur, India",
-"Dr. Paramjit Singh, Maharaja Ranjit Singh, PTU, India"
+        "Dr. Dwarika Nath Ratha, TIET, Patiala, India",
+        "Dr. Surinder Sharma, Himachal Pradesh University",
+        "Dr Ritika Sharma, Himachal Pradesh University",
+        "Prof. B.L. Gupta, NITTTR, Bhopal",
+        "Prof. Ranjit Singh Chauhan, NITTTR, Bhopal",
+        "Prof. P. K. Tulsi, NITTTR, Chandigarh.",
+        "Prof. Urmila Kar, NITTTR, Kolkata",
+        "Prof. S.K. Naskar, NITTTR, Kolkata",
+        "Dr. P S Grover, (Retd.) Ex Director– Delhi University",
+        "Prof. Pankaj Sharma, NITTTR, Chandigarh",
+        "Prof. Ritula Thakur, NITTTR, Chandigarh",
+        "Prof. Balwinder Singh Dhaliwal, NITTTR Chandigarh",
+        "Prof. Amandeep Kaur, NITTTR, Chandigarh",
+        "Dr. Himanshu Jindal, Amity University, India",
+        "Dr. Monika Bharti, Amity University, India",
+        "Dr. Deepak Mehta, Jain University, India",
+        "Dr. Aakashdeep Kaur, PEC, India",
+        "Dr. Komal Singh Gill, LPU, India",
+        "Dr. Krishan Kumar Saluja, Panjab University, India",
+        "Dr. Monika Sachdeva, I.K. Gujral Punjab Technical University, Mohali, India",
+        "Dr. Neelam Chadda, NTPC, Nagpur, India",
+        "Dr. Paramjit Singh, Maharaja Ranjit Singh, PTU, India"
       ]
     },
     {
@@ -226,7 +224,7 @@
       "Abhinav Saini, Electronics and Communication Engineering Department",
       "Aanya Agarwal, Department of Computer Science and Engineering",
       "Vignesh Jain, Department of Computer Science and Engineering",
-    "Aman Aasees Kaur, Department of Computer Science and Engineering"
+      "Aman Aasees Kaur, Department of Computer Science and Engineering"
           ]
         }
       ],
@@ -234,12 +232,12 @@
 
 
     [
-  { "label": "Home", "path": "/" },
+  { "label": "Home", "path": "/#home" },
   { "label": "About Conference", "path": "/#about" },
   { "label": "Conference Tracks", "path": "/#Conference_Tracks" },
   { "label": "Our Team", "path": "/#Organizers" },
-  { "label": "Schedule", "path": "/" },
   { "label": "Abstract/Submissions", "path": "/abstract" },
+  { "label": "Schedule", "path": "/" },
   { "label": "Contact Us", "path": "/#contact" }
 
 ]
@@ -333,8 +331,8 @@
     "headers": ["CATEGORY", "FEE"],
     "events": [
       {"event": "Faculty Delegate", "date": "Rs 6000 + GST" },
-      {"event": "TIET Research Scholars", "date": "Rs 1000 + GST" },
-      {"event": "Other Research Scholars", "date": "Rs 1500 + GST" },
+      {"event": "TIET Research Scholars (UG/P.G./Ph.D.)", "date": "Rs 1000 + GST" },
+      {"event": "Other Research Scholars (UG/P.G./Ph.D.)", "date": "Rs 1500 + GST" },
       {"event": "Industry", "date": "Rs 8000 + GST" },
       {"event": "Listeners", "date": "Rs 1000 +GST" },
       {"event": "Foreign Delegates", "date": "300 USD" },
@@ -354,7 +352,8 @@
     
     "title": "List of Journals",
     "description_bullets":[
-"Journal of Engineering & Technology Education (ISSN 2229 – 631X), bi-annual interdisciplinary Journal"
+"Journal of Engineering & Technology Education (ISSN 2229 – 631X), bi-annual interdisciplinary Journal",
+"ASEAN Journal of Engineering Education. Asian SCI indexed"
     ]
 
   }

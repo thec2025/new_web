@@ -121,16 +121,34 @@ export const uqFellows = [
 
   export const gs = [
     {
+      name : "Prof. Rajesh Kumar Dixit",
+      title : "NITTTR",
+      department : " Bhopal",
+      image: "/images/gurjar1.jpg"
+    },
+    {
+      name : "Prof. Hadas Mamane",
+      title : "Tel Aviv University",
+      department : "Israel",
+      image: "/images/phm.jpg"
+    },
+    {
+      name : "Prof. Aard Groen",
+      title : "Chair Professor",
+      department : "University of Groningen, Netherlands",
+      image: "/images/pag.jpg"
+    },
+    {
       name : "Dr. Navneet Chopra",
       title : "Assistant Professor",
       department : "University of Delhi",
       image: "/images/navneet_chpra.jpg"
     },
-,{
-      name : "Prof. Rajesh Kumar Dixit",
-      title : "Professor",
-      department : " NITTTR, Bhopal",
-      image: "/images/gurjar1.jpg"
+    {
+      name : "Prof. Suman Chakraborty",
+      title : "Indian Institute of Technology",
+      department : "Kharagpur, India",
+      image: "/images/PSC.jpg"
     }
   ];
 
@@ -150,8 +168,8 @@ export const uqFellows = [
   ];
 
   export const os = [
-        {
-      name : "Prof. Meenakshi Sood",
+      {
+      name : "Asso. Prof. Meenakshi Sood",
       title : "Associate Dean Outreach and Resource Generation",
       department : "NITTTR Chandigarh",
       image: "/images/drms.jpg"
@@ -186,21 +204,20 @@ export const uqFellows = [
     },
     {
       name : "Prof. Maitreyee Dutta",
-      title: "Professor,",
-      department : "Head IMEE, NITTTR Chandigarh",
+      title: "Head IMEE",
+      department : "NITTTR Chandigarh",
       image: "images/md.jpg"
     },
     {
     name: "Prof. Sandeep Singh Gill",
-    title: "Professor",
-    department: "Head, Talent Acquisition, NITTTR Chandigarh",
-    additionalRoles: "Head, Talent Acquisition and Skill Development Centre",
+    title: "Head, TASDC",
+    department: "NITTTR Chandigarh",
     image: "images/gill.jpg" 
   },
   {
     name: "Prof. Rupinder Singh",
-    title: "Dean",
-    department: "Research and Innovation, NITTTR Chandigarh",
+    title: "Dean, Research and Innovation",
+    department: "NITTTR Chandigarh",
     image: "images/rup.jpg" 
   }
 

@@ -7,9 +7,9 @@ import conferencedata from "../data/conferenceData.json";
 import DatesTable from '../components/dates_table';
 import CommitteeSection from '../components/CommitteeSection';
 import Committees from '../components/committes';
-import { thaparLearnFellows, uqFellows,goh,gs,convener,os,nit } from '../data/committeeData';
+import { thaparLearnFellows, uqFellows,gs,convener,os,nit } from '../data/committeeData';
 import HeroSection from '../components/Landing';
-import { Box, Container, Typography, Button } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
 import ConferenceTracks from '../components/ConferenceTracks';
 import Bottombar from '../components/bottomblack';
 import Slideshow from '../components/glimpses'; 
@@ -53,7 +53,7 @@ function Home() {
     <Box sx={{ background: '#ffffff' }}>
             <br/>
             <Container>
-      <Typography> Abstract/Paper Submission link <a href="/abstract">Click Here</a> </Typography>
+      <Typography> Abstract/Paper Submission link <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FTHEC2025">Click Here</a> </Typography>
 
             </Container>
             </Box>
