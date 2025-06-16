@@ -30,7 +30,7 @@ const CommitteeSection = ({ title, members }) => {
           <CommitteeMemberCard
               key={index}
               member={member}
-              forceTwoPerRow={members.length === 4}
+              forceTwoPerRow={members.length === 2 || members.length === 4}
             />
           ))}
 
