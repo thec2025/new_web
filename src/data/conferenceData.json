@@ -323,6 +323,10 @@
       "callForPapers": {
         "title": "Abstract/Paper Submission",
         "path": "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FTHEC2025"
+      },
+      "template":{
+        "title":"Paper Format",
+        "path":"images/Format_Full Paper_THEC2025.pdf"
       }
     }},
   
