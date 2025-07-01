@@ -327,6 +327,10 @@
       "template":{
         "title":"Paper Format",
         "path":"images/Format_Full Paper_THEC2025.pdf"
+      },
+            "template_latex":{
+        "title":"Latex Template",
+        "path":"images/THEC 2025LaTeX.tex"
       }
     }},
   
