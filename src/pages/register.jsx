@@ -123,17 +123,67 @@ export default function Register() {
             </Box>
           </Box>
 
+          {/* Buttons Section */}
           {conferencedata.Register.buttons &&
             Object.keys(conferencedata.Register.buttons).length > 0 && (
-              <Box sx={{ py: 4 }}>
-                <Container>
+              <>
+                {/* Top 3 Buttons */}
+                <Box sx={{ py: 4 }}>
+                  <Container>
+                    <Stack
+                      direction={{ xs: "column", sm: "row" }}
+                      spacing={2}
+                      justifyContent="center"
+                      alignItems="center"
+                    >
+                      {Object.entries(conferencedata.Register.buttons)
+                        .slice(0, 3)
+                        .map(([key, doc]) => (
+                          <Button
+                            key={key}
+                            component="a"
+                            href={doc.path}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            variant="contained"
+                            color="primary"
+                            sx={{
+                              borderRadius: "20px",
+                              px: 3,
+                              py: 1,
+                              textTransform: "none",
+                              fontWeight: "bold",
+                              fontSize: "1rem",
+                              boxShadow: 2,
+                              minWidth: "200px",
+                            }}
+                          >
+                            {doc.title}
+                          </Button>
+                        ))}
+                    </Stack>
+                  </Container>
+                </Box>
+
+                {/* Bottom 2 Buttons */}
+                <Box
+                  sx={{
+                    minHeight: "10vh",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "flex-end",
+                    pb: 6,
+                  }}
+                >
                   <Stack
                     direction={{ xs: "column", sm: "row" }}
                     spacing={2}
                     justifyContent="center"
+                    alignItems="center"
                   >
-                    {Object.entries(conferencedata.Register.buttons).map(
-                      ([key, doc]) => (
+                    {Object.entries(conferencedata.Register.buttons)
+                      .slice(3)
+                      .map(([key, doc]) => (
                         <Button
                           key={key}
                           component="a"
@@ -155,11 +205,10 @@ export default function Register() {
                         >
                           {doc.title}
                         </Button>
-                      )
-                    )}
+                      ))}
                   </Stack>
-                </Container>
-              </Box>
+                </Box>
+              </>
             )}
         </Container>
       </Box>

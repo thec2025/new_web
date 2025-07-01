@@ -1,0 +1,103 @@
+% THEC 2025 — Abstract Submission Template (LaTeX)
+% Replace all placeholder text with your own content.
+% -------------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+% --- Page layout ----------------------------------------------------
+\usepackage[a4paper,margin=1in]{geometry}
+
+% --- Times New Roman equivalent font --------------------------------
+\usepackage{newtxtext,newtxmath} % Serif text & math in Times style
+
+% --- Spacing & section formatting ----------------------------------
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+% Reduce whitespace above/below custom sections
+\titlespacing*{\section}{0pt}{*3}{*1}
+\titleformat{\section}{\fontsize{12pt}{14pt}\selectfont\bfseries}{\thesection.}{1em}{}
+
+% No paragraph indentation; add a little space between paragraphs
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% -------------------------------------------------------------------
+% Custom commands matching the required font sizes/styles
+% -------------------------------------------------------------------
+
+% Title – Times New Roman 14 pt, bold, centred (max 15 words)
+\newcommand{\papertitle}[1]{%
+  \begin{center}
+    \fontsize{14pt}{16pt}\selectfont\textbf{#1}
+  \end{center}
+  \vspace{1em}}
+
+% Author list – Times New Roman 12 pt, centred
+\newcommand{\paperauthors}[1]{%
+  \begin{center}
+    \fontsize{12pt}{14pt}\selectfont #1
+  \end{center}}
+
+% Affiliations – Times New Roman 11 pt, italic, centred
+\newcommand{\affiliations}[1]{%
+  \begin{center}
+    \fontsize{11pt}{13pt}\selectfont\textit{#1}
+  \end{center}}
+
+% Corresponding author – Times New Roman 10 pt, centred
+\newcommand{\correspondingauthor}[1]{%
+  \begin{center}
+    \fontsize{10pt}{12pt}\selectfont #1
+  \end{center}
+  \vspace{1.5em}}
+
+% -------------------------------------------------------------------
+\begin{document}
+
+% =======================  START FILLING YOUR INFORMATION  =======================
+
+% -------- Title (≤ 15 words) --------------------------------------
+\papertitle{Insert Your Title Here (Max. 15 Words)}
+
+% -------- Authors (full names) -------------------------------------
+%    Example: First Author$^{1}$, Second Author$^{2}$, Third Author$^{1}$
+\paperauthors{First Author$^{1}$, Second Author$^{2}$, Third Author$^{1}$}
+
+% -------- Affiliations (italic) ------------------------------------
+%    Include Department, Organisation, Address, City, Country
+\affiliations{$^{1}$Department, Organisation, Address, City, Country\\
+$^{2}$Department, Organisation, Address, City, Country}
+
+% -------- Corresponding author -------------------------------------
+%    Provide *one* e‑mail and phone number
+\correspondingauthor{*Corresponding Author: name@domain.com \;|\; +XX XXX XXXXXXX}
+
+% -------- Abstract --------------------------------------------------
+%    Times New Roman 12 pt, 100–250 words, state relevance to conference theme.
+\section*{Abstract (100--250\,words)}
+% Write your abstract text here. Keep between 100–250 words. Do not exceed this limit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula, orci in varius ullamcorper, purus neque dictum lorem, at malesuada mi nunc eget metus. % ← Replace with real text
+
+% -------- Keywords --------------------------------------------------
+\section*{Keywords}
+% Provide up to five keywords separated by commas.
+keyword one, keyword two, keyword three, keyword four, keyword five
+
+% -------- Presentation Type ----------------------------------------
+\section*{Presentation Type}
+% Select the preferred format: Oral Presentation / Poster Presentation
+Oral Presentation
+
+% -------- Biography -------------------------------------------------
+\section*{Biography}
+% Approximately 100 words for each author describing expertise & experience.
+\begin{itemize}[leftmargin=*, label={}]
+  \item \textbf{First Author}: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  \item \textbf{Second Author}: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+\end{itemize}
+
+% =======================  END OF TEMPLATE  =========================
+
+\end{document}
