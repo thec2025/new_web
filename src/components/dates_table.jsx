@@ -43,13 +43,13 @@ function DatesTable({ data }) {
   <TableRow key={index}>
     <TableCell component="th" scope="row">{row.event}</TableCell>
     <TableCell align="right">
-      {row.event === "Abstract Submission" ? (
-        <Box>
+    {(row.event === "Abstract Submission" || row.event === "Acceptance of Abstract") ? (        
+      <Box>
           <Typography variant="body2" sx={{ textDecoration: 'line-through', color: 'red' }}>
             {row.date}
           </Typography>
           <Typography variant="body2" color="text.primary">
-            30 June 2025
+            15 July 2025
           </Typography>
         </Box>
       ) : (
