@@ -350,7 +350,27 @@
       
     ]
 
+
   },
+"marqueeText": [
+  {
+    "type": "text",
+    "value": "Selected papers of conference will be published as proceedings with Springer in their prestigious “Springer Transactions on Digital Learning” series "
+  },
+  {
+    "type": "link",
+    "value": "(https://link.springer.com/series/60243)",
+    "href": "https://link.springer.com/series/60243"
+  },
+
+  {
+    "type": "link",
+    "value": "Details Click Here",
+    "href": "#conference-tracks-section"
+  }
+]
+
+    ,
   "glimpse":{
     "title":"GLIMPSES OF FIRST CONFERENCE OBE'23",
     "images":["/DSC_9152","/DSC_9197","/DSC_9200","/DSC_9204","/DSC_9222"]

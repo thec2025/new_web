@@ -15,6 +15,9 @@ import Bottombar from '../components/bottomblack';
 import Slideshow from '../components/glimpses'; 
 import ContactUs from '../components/contactUs';
 import Chief from '../components/pcp';
+import Marquee from '../components/Marquee';
+
+
 
 
 function Home() {
@@ -24,23 +27,43 @@ function Home() {
       <Navbar data={conferencedata.navLinks} />
       <HeroSection />
       <Bottombar/>
-<Box sx={{ width: '100%'}}>
-  <Box sx={{ display: 'flex', justifyContent: 'flex-end', gap: 2, my: 4 ,pr:4,mb:0 }}>
+<Box sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', px: 4, my: 4 }}>
+  {/* Left-aligned logos */}
+  <Box sx={{ display: 'flex', gap: 2 }}>
+    <Box
+      component="img"
+      src="/Springer_Nature.png"
+      alt="Springer Nature"
+      sx={{ width: 100, height: 'auto', borderRadius: 2 }}
+    />
+    <Box
+      component="img"
+      src="/springer-2.svg"
+      alt="Springer 2"
+      sx={{ width: 150, height: 'auto', borderRadius: 2 }}
+    />
+  </Box>
+
+  {/* Right-aligned logos */}
+  <Box sx={{ display: 'flex', gap: 2 }}>
     <Box
       component="img"
       src="/tiet.png"
-      alt="Image 1"
+      alt="TIET"
       sx={{ width: 120, height: 'auto', borderRadius: 2 }}
-
     />
     <Box
       component="img"
       src="/nitttr.jpeg"
-      alt="Image 2"
+      alt="NITTTR"
       sx={{ width: 100, height: 'auto', borderRadius: 2 }}
     />
   </Box>
 </Box>
+<Marquee data={conferencedata.marqueeText}/>
+
+
+
       <Box id = "about">
         <TextSec1 data={conferencedata.about} />
 
