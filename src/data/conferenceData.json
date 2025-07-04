@@ -338,14 +338,14 @@
     "title": "Fee Details:",
     "headers": ["CATEGORY", "FEE"],
     "events": [
-      {"event": "Faculty Delegate", "date": "Rs 6000 + GST" },
-      {"event": "TIET Research Scholars (UG/P.G./Ph.D.)", "date": "Rs 1000 + GST" },
-      {"event": "Other Research Scholars (UG/P.G./Ph.D.)", "date": "Rs 1500 + GST" },
-      {"event": "Industry", "date": "Rs 8000 + GST" },
-      {"event": "Listeners", "date": "Rs 1000 +GST" },
+      {"event": "Faculty Delegate", "date": "Rs 6000 + (18%) GST" },
+      {"event": "TIET Research Scholars (UG/P.G./Ph.D.)", "date": "Rs 1000 + (18%) GST" },
+      {"event": "Other Research Scholars (UG/P.G./Ph.D.)", "date": "Rs 1500 + (18%) GST" },
+      {"event": "Industry", "date": "Rs 8000 + (18%) GST" },
+      {"event": "Listeners", "date": "Rs 1000 + (18%) GST" },
       {"event": "Foreign Delegates", "date": "300 USD" },
       {"event": "", "date": "" },
-      {"event": "Early Bird Registration (Indian Authors) 15 July 2025", "date": "Rs 5000 + GST" },
+      {"event": "Early Bird Registration (Indian Authors) 15 July 2025", "date": "Rs 5000 + (18%) GST" },
       {"event": "Early Bird Registration (Foreign Authors) 15 July 2025", "date": "250 USD" }
       
     ]
