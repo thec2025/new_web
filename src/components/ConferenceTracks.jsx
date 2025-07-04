@@ -52,7 +52,7 @@ const ConferenceTracks = ({ tracks }) => {
   <Container component="section">
     <Box id="Conference_Tracks">
 
-      <Typography variant="body1" align="left" sx={{ mt: 3, fontWeight: 1000, fontSize: '1.2rem', color: '#FFA500'}}>
+      <Typography id="conference-tracks-section" variant="body1" align="left" sx={{ mt: 3, fontWeight: 1000, fontSize: '1.2rem', color: '#FFA500' , scrollMarginTop: '100px'}}>
         Selected papers will be published in Conference Proceedings / Indexed Journals.
       </Typography>
       <BulletSection data={conferencedata.journals} />
